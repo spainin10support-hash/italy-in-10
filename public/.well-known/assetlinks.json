@@ -1,0 +1,16 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.italy10.city.twa",
+    "sha256_cert_fingerprints": ["
+83:5D:3F:BE:E6:19:DD:B3:D3:0E:ED:E4:AE:65:36:50:54:23:FD:CB:81:53:72:8A:93:5F:55:DE:46:3F:CF:8A"]
+  }
+}]
+
+
+
+
+
+
+

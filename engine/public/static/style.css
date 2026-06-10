@@ -1,0 +1,147 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #f8f9fa; font-family: -apple-system, sans-serif; color: #202124; -webkit-text-size-adjust: none; }
+.app-container { max-width: 600px; margin: 0 auto; background: white; min-height: 100vh; position: relative; padding-bottom: calc(75px + env(safe-area-inset-bottom, 0px)); }
+
+/* ── Header ── */
+.sticky-header { padding: 15px; padding-top: calc(15px + env(safe-area-inset-top, 0px)); padding-left: calc(15px + env(safe-area-inset-left, 0px)); padding-right: calc(15px + env(safe-area-inset-right, 0px)); position: sticky; top: 0; background: white; z-index: 1000; border-bottom: 1px solid #eee; display: flex; gap: 10px; align-items: center; }
+.search-input { flex: 1; padding: 12px 20px; border-radius: 25px; border: 1px solid #dfe1e5; font-size: 16px; outline: none; box-shadow: 0 4px 12px rgba(0,0,0,0.08); }
+.search-btn { background: #d4a843; border: none; padding: 10px 15px; border-radius: 25px; font-weight: bold; cursor: pointer; }
+
+/* ── Hero ── */
+.hero { height: 250px; margin: -20px -20px 20px; background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('https://images.pexels.com/photos/1388030/pexels-photo-1388030.jpeg?auto=compress&cs=tinysrgb&w=1000'); background-size: cover; background-position: center; display: flex; align-items: center; justify-content: center; color: white; text-align: center; }
+.hero h2 { font-size: 32px; text-shadow: 2px 2px 8px rgba(0,0,0,0.5); margin: 0; }
+
+/* ── Home page content ── */
+.page-content { padding: 20px; }
+.page-content h3 { border-bottom: 2px solid #d4a843; display: inline-block; margin-bottom: 15px; padding-bottom: 2px; }
+
+/* ── City grid (home) ── */
+.featured-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; padding: 0; margin-top: -30px; }
+.city-card { height: 140px; border-radius: 12px; background-size: cover; background-position: center; display: flex; align-items: flex-end; padding: 15px; color: white; font-weight: bold; text-decoration: none; box-shadow: 0 4px 12px rgba(0,0,0,0.15); text-shadow: 1px 1px 4px rgba(0,0,0,0.8); background-color: #ccc; }
+.city-card-sm { display: inline-flex; align-items: center; gap: 6px; background: #1a7a3a; color: white; padding: 10px 16px; border-radius: 20px; text-decoration: none; font-size: 13px; font-weight: 600; white-space: nowrap; }
+.scroll-x { display: flex; gap: 10px; overflow-x: auto; padding-bottom: 8px; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+.scroll-x::-webkit-scrollbar { display: none; }
+.section-label { font-size: 12px; color: #888; margin: 0 0 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; }
+.swipe-hint { font-size: 11px; color: #aaa; margin: 8px 0 0; text-align: center; }
+
+/* ── Hotel cards ── */
+.hotel-list { display: flex; flex-direction: column; gap: 12px; }
+.hotel-card { display: flex; align-items: center; background: white; border-radius: 12px; overflow: hidden; border: 1px solid #eee; box-shadow: 0 2px 8px rgba(0,0,0,0.06); padding: 10px; gap: 12px; }
+.hotel-info { flex: 1; }
+.hotel-name { font-size: 16px; font-weight: 700; margin-bottom: 4px; }
+.hotel-desc { font-size: 13px; color: #5f6368; line-height: 1.4; }
+.hotel-price { font-size: 13px; font-weight: 600; color: #1a7a3a; margin-top: 4px; }
+.hotel-book-btn { background: #1a7a3a; color: white; padding: 10px 8px; border-radius: 6px; text-decoration: none; font-size: 11px; font-weight: bold; text-align: center; min-width: 110px; white-space: nowrap; }
+
+/* ── Flight card ── */
+.flight-card { border-radius: 16px; overflow: hidden; margin-bottom: 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.12); }
+.flight-header { height: 65px; background: linear-gradient(rgba(0,20,60,0.7), rgba(0,20,60,0.7)), url('https://images.pexels.com/photos/1547726/pexels-photo-1547726.jpeg?w=600'); background-size: cover; background-position: center; display: flex; align-items: center; padding: 20px; gap: 15px; }
+.flight-icon { font-size: 36px; }
+.flight-text { color: white; flex: 1; }
+.flight-title { font-size: 18px; font-weight: 800; margin-bottom: 4px; }
+.flight-sub { font-size: 12px; opacity: 0.85; }
+.flight-cta { display: block; background: #1a7a3a; color: white; text-align: center; padding: 12px; text-decoration: none; font-weight: 700; font-size: 14px; letter-spacing: 0.3px; }
+
+/* ── Weather ── */
+.weather-block { display: flex; align-items: center; gap: 8px; background: #f0f4ff; padding: 10px 15px; border-radius: 12px; margin-bottom: 15px; }
+.weather-temp { font-size: 22px; font-weight: 800; color: #1a7a3a; line-height: 1; }
+.weather-desc { font-size: 12px; color: #666; text-transform: capitalize; }
+.weather-refresh { margin-left: auto; font-size: 11px; color: #aaa; text-align: right; }
+.weather-refresh span { cursor: pointer; color: #1a73e8; font-weight: 600; }
+
+/* ── Welcome box ── */
+.welcome-box { background: #ffffff; padding: 20px 15px; border-radius: 12px; border-left: 4px solid #1a7a3a; margin-bottom: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+.welcome-box p { margin: 0; font-size: 15px; line-height: 1.6; color: #333; }
+
+/* ── Travel tips ── */
+.tip-box { background: #fff3cd; color: #856404; padding: 12px; border-radius: 8px; margin-bottom: 15px; font-size: 14px; transition: opacity 0.5s ease; }
+
+/* ── Transport box ── */
+.transport-box { background: #e8f0fe; padding: 15px; border-radius: 12px; font-size: 13px; color: #1967d2; line-height: 1.5; border-left: 4px solid #1a73e8; margin-bottom: 20px; }
+
+/* ── Attractions ── */
+.attractions-box { background: #f9f9f9; padding: 15px; border-radius: 12px; border: 1px solid #eee; margin-bottom: 20px; }
+.attraction-item { font-size: 14px; margin-bottom: 10px; }
+
+/* ── Donts ── */
+.donts-box { background: #fff5f5; padding: 15px; border-radius: 12px; border: 1px solid #ffcccc; margin-bottom: 20px; }
+.donts-box h4 { margin: 0 0 10px; color: #cc0000; }
+.dont-item { font-size: 13px; margin-bottom: 6px; }
+
+/* ── Action grid ── */
+.action-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin: 20px 0; }
+.action-card { background: #e3f2fd; padding: 15px; border-radius: 12px; text-decoration: none; text-align: center; color: #1967d2; font-weight: bold; font-size: 14px; }
+
+/* ── Walking tours ── */
+.tours-box { background: #fff5e6; border: 1px solid #ffe0b2; border-radius: 12px; padding: 15px; margin-bottom: 20px; }
+.tours-label { font-size: 11px; font-weight: bold; color: #f57c00; text-transform: uppercase; }
+.tours-title { margin: 5px 0 10px 0; font-size: 16px; font-weight: 700; }
+.tour-pill { background: white; border: 1px solid #ddd; padding: 8px 12px; border-radius: 20px; text-decoration: none; font-size: 12px; white-space: nowrap; color: #333; display: inline-flex; }
+
+/* ── Map ── */
+.map-container { border-radius: 15px; overflow: hidden; border: 1px solid #eee; height: 300px; width: 100%; margin-bottom: 20px; }
+.map-container iframe { width: 100%; height: 100%; border: 0; }
+
+/* ── Journeys ── */
+.journey-grid { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
+.journey-card { display: block; border-radius: 14px; padding: 20px; text-decoration: none; color: white; position: relative; overflow: hidden; transition: transform 0.15s ease; }
+.journey-card:active { transform: scale(0.98); }
+.journey-card-content { position: relative; z-index: 1; }
+.journey-emoji { font-size: 28px; margin-bottom: 6px; }
+.journey-name { font-size: 18px; font-weight: 800; letter-spacing: -0.3px; margin-bottom: 4px; }
+.journey-cities { font-size: 13px; opacity: 0.9; margin-bottom: 6px; }
+.journey-meta { font-size: 11px; opacity: 0.8; }
+.journey-city-card { display: block; border-radius: 12px; padding: 15px; text-decoration: none; color: white; transition: transform 0.15s ease; }
+.journey-city-card:active { transform: scale(0.98); }
+.leg-card { background: #f8f9fa; border-radius: 10px; padding: 12px 15px; margin-bottom: 10px; border-left: 4px solid #1a7a3a; }
+.leg-route { font-size: 15px; margin-bottom: 6px; }
+.leg-details { display: flex; gap: 10px; flex-wrap: wrap; font-size: 12px; color: #555; margin-bottom: 6px; }
+.leg-book { display: inline-block; font-size: 12px; color: #1a73e8; font-weight: 600; text-decoration: none; }
+.leg-book:hover { text-decoration: underline; }
+
+/* ── Fiestas / Phrases ── */
+.info-card { background: #f9f9f9; padding: 15px; border-radius: 12px; border: 1px solid #eee; margin-bottom: 20px; }
+.phrase-item { font-size: 14px; margin-bottom: 12px; }
+
+/* ── Help banner ── */
+.help-banner { margin: 20px 0; padding: 12px 15px; border-radius: 10px; background: #fff9e6; border: 1px solid #ffcc00; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.help-banner-text { text-align: left; }
+.help-banner-title { color: #996600; font-size: 14px; display: block; font-weight: bold; }
+.help-banner-sub { font-size: 12px; color: #555; }
+.help-banner-cta { background: #996600; color: white; padding: 8px 12px; border-radius: 6px; text-decoration: none; font-weight: bold; font-size: 12px; white-space: nowrap; }
+
+/* ── Search all hotels ── */
+.search-hotels-box { margin: 20px 0; padding: 15px; background: #f0f4f8; border-radius: 12px; text-align: center; }
+.search-hotels-box p { margin: 0 0 10px 0; font-size: 13px; color: #555; }
+.search-hotels-link { display: block; background: white; border: 1px solid #1a7a3a; color: #1a7a3a; padding: 12px; border-radius: 8px; text-decoration: none; font-size: 14px; font-weight: 500; }
+
+/* ── Day trips ── */
+.daytrip-card { background: #f9f9f9; padding: 15px; border-radius: 12px; border: 1px solid #eee; margin-bottom: 12px; }
+.daytrip-card b { display: block; }
+.daytrip-card .meta { font-size: 12px; color: #666; }
+.daytrip-card .tip { font-size: 12px; color: #666; display: block; margin-top: 4px; }
+
+/* ── Footer ── */
+.footer-nav { position: fixed; bottom: 0; width: 100%; max-width: 600px; background: white; border-top: 1px solid #eee; z-index: 1001; padding-bottom: env(safe-area-inset-bottom, 0px); }
+.footer-links { background: #d4a843; padding: 12px; display: flex; justify-content: space-around; font-weight: bold; font-size: 11px; }
+.footer-link { text-decoration: none; color: #202124; display: flex; flex-direction: column; align-items: center; gap: 2px; }
+
+/* ── BYG overlay ── */
+.byg-fab { position: fixed; bottom: 85px; right: 18px; width: 52px; height: 52px; background: #1a7a3a; border: none; border-radius: 50%; cursor: pointer; z-index: 999; box-shadow: 0 4px 20px rgba(26,122,58,0.35); display: flex; align-items: center; justify-content: center; font-size: 22px; transition: transform 0.2s ease; }
+.byg-fab:active { transform: scale(0.93); }
+.byg-overlay { display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.45); z-index: 1002; align-items: flex-end; justify-content: center; }
+.byg-sheet { background: white; border-radius: 24px 24px 0 0; padding: 20px 20px 30px; width: 100%; max-width: 600px; max-height: 80vh; overflow-y: auto; animation: slideUp 0.3s ease; }
+@keyframes slideUp { from { transform: translateY(100%); } to { transform: translateY(0); } }
+.byg-handle { width: 36px; height: 4px; background: #e0e0e0; border-radius: 2px; margin: 0 auto 18px; }
+.byg-header { text-align: center; margin-bottom: 22px; }
+.byg-header h3 { font-size: 17px; font-weight: 800; margin: 0 0 4px; letter-spacing: -0.3px; border: none; display: block; }
+.byg-header p { font-size: 12px; color: #888; margin: 0; font-style: italic; }
+.byg-item { display: flex; align-items: center; gap: 14px; padding: 14px 0; border-bottom: 1px solid #f4f4f4; text-decoration: none; color: #202124; }
+.byg-item:last-of-type { border-bottom: none; }
+.byg-icon { width: 46px; height: 46px; background: #f0f4ff; border-radius: 12px; display: flex; align-items: center; justify-content: center; font-size: 22px; flex-shrink: 0; }
+.byg-tag { font-size: 9px; font-weight: 800; color: #1a73e8; text-transform: uppercase; letter-spacing: 0.5px; }
+.byg-title { font-size: 14px; font-weight: 700; margin: 2px 0 3px; color: #111; }
+.byg-desc { font-size: 11px; color: #888; line-height: 1.4; }
+.byg-arrow { margin-left: auto; color: #1a7a3a; font-size: 20px; font-weight: 300; flex-shrink: 0; }
+.byg-close { width: 100%; margin-top: 18px; padding: 14px; background: #f8f8f8; border: none; border-radius: 14px; font-size: 14px; font-weight: 700; color: #333; cursor: pointer; letter-spacing: 0.2px; }
+.byg-close:active { background: #eee; }

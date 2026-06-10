@@ -1,0 +1,10 @@
+{
+  "name": "travel-engine",
+  "version": "1.0.0",
+  "description": "Multi-country travel app engine",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "build": "node ../build.js"
+  }
+}

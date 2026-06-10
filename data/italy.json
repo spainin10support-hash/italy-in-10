@@ -1,0 +1,3599 @@
+{
+  "country": "Italy",
+  "flag": "🇮🇹",
+  "code": "it",
+  "emoji": "🇮🇹",
+  "bookingAid": "304433",
+  "embassyUrl": "https://www.gov.uk/world/organisations/british-embassy-rome",
+  "embassyLabel": "British Embassy Rome",
+  "journeys": [
+    {
+      "slug": "classic-triangle",
+      "name": "The Classic Triangle",
+      "emoji": "🗿",
+      "tagline": "Rome, Florence, Venice — the three cities that define Italy",
+      "bestFor": "First-timers, culture lovers",
+      "days": "7-10",
+      "vibe": "🚄 All trains",
+      "color": [
+        "#e74c3c",
+        "#8e44ad"
+      ],
+      "intro": "This is the Italy you bookmarked. The Colosseum at sunrise, David in the flesh, gondolas under the Bridge of Sighs. Three cities, one perfect arc — connected by high-speed trains and centuries of beauty.",
+      "cities": [
+        "rome",
+        "florence",
+        "venice"
+      ],
+      "legs": [
+        {
+          "from": "Rome",
+          "to": "Florence",
+          "time": "1h 30m",
+          "price": "€40-60",
+          "mode": "High-speed train (Trenitalia/Italo)",
+          "bookUrl": "https://www.trenitalia.com"
+        },
+        {
+          "from": "Florence",
+          "to": "Venice",
+          "time": "2h 05m",
+          "price": "€45-65",
+          "mode": "High-speed train",
+          "bookUrl": "https://www.trenitalia.com"
+        }
+      ]
+    },
+    {
+      "slug": "grand-tour",
+      "name": "The Grand Tour",
+      "emoji": "🏛️",
+      "tagline": "Rome → Florence → Bologna → Venice — the full Renaissance",
+      "bestFor": "Two-week explorers, history buffs, foodies",
+      "days": "10-14",
+      "vibe": "🚄 All trains",
+      "color": [
+        "#8e44ad",
+        "#3498db"
+      ],
+      "intro": "Start where the empire began and end in a floating city. Toss in Bologna — Italy's forgotten food capital — for the best meal of your life. Four cities, four distinct Italys, one incredible journey.",
+      "cities": [
+        "rome",
+        "florence",
+        "bologna",
+        "venice"
+      ],
+      "legs": [
+        {
+          "from": "Rome",
+          "to": "Florence",
+          "time": "1h 30m",
+          "price": "€40-60",
+          "mode": "High-speed train",
+          "bookUrl": "https://www.trenitalia.com"
+        },
+        {
+          "from": "Florence",
+          "to": "Bologna",
+          "time": "35m",
+          "price": "€25-40",
+          "mode": "High-speed train",
+          "bookUrl": "https://www.trenitalia.com"
+        },
+        {
+          "from": "Bologna",
+          "to": "Venice",
+          "time": "1h 35m",
+          "price": "€35-55",
+          "mode": "High-speed train",
+          "bookUrl": "https://www.trenitalia.com"
+        }
+      ]
+    },
+    {
+      "slug": "amalfi-escape",
+      "name": "The Amalfi Escape",
+      "emoji": "🌊",
+      "tagline": "Naples → Amalfi → Rome — coast, culture, and the capital",
+      "bestFor": "Sun-seekers, romantics, photographers",
+      "days": "5-7",
+      "vibe": "🚗 Car recommended",
+      "color": [
+        "#e67e22",
+        "#f39c12"
+      ],
+      "intro": "Pizza in Naples, lemon groves in Amalfi, and the eternal city to finish. This is the route that does it all — coastal drama and ancient wonders, all in one week.",
+      "cities": [
+        "naples",
+        "amalfi",
+        "rome"
+      ],
+      "legs": [
+        {
+          "from": "Naples",
+          "to": "Amalfi",
+          "time": "1h 15m",
+          "price": "€20-35",
+          "mode": "Ferry or SITA bus",
+          "bookUrl": "https://www.ferriesonline.com"
+        },
+        {
+          "from": "Amalfi",
+          "to": "Rome",
+          "time": "3h 30m",
+          "price": "€50-80",
+          "mode": "Bus to Salerno → high-speed train",
+          "bookUrl": "https://www.trenitalia.com"
+        }
+      ]
+    },
+    {
+      "slug": "food-trail",
+      "name": "The Food Trail",
+      "emoji": "🍝",
+      "tagline": "Bologna → Florence → Turin — eat your way across the north",
+      "bestFor": "Foodies, wine lovers, slow travellers",
+      "days": "5-7",
+      "vibe": "🚄 All trains",
+      "color": [
+        "#27ae60",
+        "#e67e22"
+      ],
+      "intro": "Bologna for tortellini, Florence for Chianti, Turin for chocolate and truffles. Three cities, three culinary hearts. This journey is designed for the traveller who eats first and asks questions later.",
+      "cities": [
+        "bologna",
+        "florence",
+        "turin"
+      ],
+      "legs": [
+        {
+          "from": "Bologna",
+          "to": "Florence",
+          "time": "35m",
+          "price": "€25-40",
+          "mode": "High-speed train",
+          "bookUrl": "https://www.trenitalia.com"
+        },
+        {
+          "from": "Florence",
+          "to": "Turin",
+          "time": "2h 45m",
+          "price": "€50-70",
+          "mode": "High-speed train",
+          "bookUrl": "https://www.trenitalia.com"
+        }
+      ]
+    },
+    {
+      "slug": "lakes-and-alps",
+      "name": "The Lakes & Alps",
+      "emoji": "🏔️",
+      "tagline": "Milan → Como → Turin → Cinque Terre — mountains, lakes, and the sea",
+      "bestFor": "Adventurers, scenery lovers, active travellers",
+      "days": "7-10",
+      "vibe": "🚄 + 🚗 Car optional",
+      "color": [
+        "#3498db",
+        "#2ecc71"
+      ],
+      "intro": "Lake Como's elegance, the Alps from Turin's hills, and the rugged coast of Cinque Terre. This route is Italy at its most spectacular — every stop is a postcard come to life.",
+      "cities": [
+        "milan",
+        "como",
+        "turin",
+        "cinque-terre"
+      ],
+      "legs": [
+        {
+          "from": "Milan",
+          "to": "Como",
+          "time": "40m",
+          "price": "€5-10",
+          "mode": "Regional train",
+          "bookUrl": "https://www.trenitalia.com"
+        },
+        {
+          "from": "Como",
+          "to": "Turin",
+          "time": "2h",
+          "price": "€30-45",
+          "mode": "High-speed train via Milan",
+          "bookUrl": "https://www.trenitalia.com"
+        },
+        {
+          "from": "Turin",
+          "to": "Cinque Terre",
+          "time": "3h 30m",
+          "price": "€40-60",
+          "mode": "High-speed train to Genoa, then regional",
+          "bookUrl": "https://www.trenitalia.com"
+        }
+      ]
+    }
+  ],
+  "cities": {
+    "rome": {
+      "name": "Rome",
+      "emoji": "🏛",
+      "taglines": {
+        "beach": "coast is close but honestly, Rome itself is all you need",
+        "party": "Trastevere bars, rooftop aperitivo, night walks past floodlit ruins",
+        "culture": "2000 years of history on every street. The Colosseum. The Vatican. The Sistine Chapel.",
+        "food": "the best pasta of your life, then cacio e pepe, then carbonara, then gelato",
+        "relax": "afternoon espresso at a pavement cafe, Villa Borghese at golden hour",
+        "mix": "Rome is not a city. It is a beautiful, chaotic, 2000-year-old masterpiece."
+      },
+      "vibes": [
+        "culture",
+        "food",
+        "relax",
+        "mix"
+      ],
+      "gradient": [
+        "#e74c3c",
+        "#c0392b"
+      ],
+      "welcome": "Rome is not a city you will visit. It is a city you will experience. From the ancient grandeur of the Colosseum to the quiet magic of Trastevere's cobbled streets, every corner tells a story. The pasta is better than you imagined, the coffee is life-changing, and the chaos somehow works. Give yourself time to wander aimlessly - that is where Rome truly reveals itself.",
+      "hotels": {
+        "budget": [
+          {
+            "name": "The RomeHello Hostel",
+            "desc": "A vibrant, community-focused hostel with striking murals, a lively bar/grill, cooking classes, and free walking tours. Beautifully restored building near Termini.",
+            "price": "From £28/night",
+            "bookingLink": "https://www.booking.com/hotel/it/the-romehello.en-gb.html?aid=304433",
+            "vibe": "Social / Vibrant",
+            "area": "Esquilino",
+            "proximity": "3 min walk to Repubblica Metro, 10 min to Trevi Fountain"
+          },
+          {
+            "name": "Generator Rome",
+            "desc": "Design-led hostel-hotel hybrid with a buzzing rooftop bar serving Aperol Spritzes. Stylish and affordable with dorms and private rooms.",
+            "price": "From £20/night",
+            "bookingLink": "https://www.booking.com/hotel/it/generator-rome.en-gb.html?aid=304433",
+            "vibe": "Design / Social",
+            "area": "Near Termini",
+            "proximity": "2 min to Vittorio Emanuele Metro, 15 min to Colosseum"
+          },
+          {
+            "name": "Hotel Katty",
+            "desc": "Friendly, clean budget hotel on the 5th floor of a noble palace with a charming vintage elevator. Family-run with spacious rooms.",
+            "price": "From £70/night",
+            "bookingLink": "https://www.booking.com/hotel/it/katty.en-gb.html?aid=304433",
+            "vibe": "Budget / Family-Run",
+            "area": "Castro Pretorio",
+            "proximity": "2 min to Castro Pretorio Metro, 20 min walk to Trevi Fountain"
+          }
+        ],
+        "mid": [
+          {
+            "name": "Hotel Artemide",
+            "desc": "Elegant 4-star with a rooftop restaurant, full spa, and free minibar in every room. Housed in a 19th-century building with refined modern interiors.",
+            "price": "From £150/night",
+            "bookingLink": "https://www.booking.com/hotel/it/artemide.en-gb.html?aid=304433",
+            "vibe": "Elegant / Rooftop",
+            "area": "Via Nazionale",
+            "proximity": "2 min to Repubblica Metro, 10 min walk to Trevi Fountain"
+          },
+          {
+            "name": "Hotel Colosseum",
+            "desc": "Family-run 3-star since 1972 in the charming Monti district. Rooftop terrace with panoramic views over ancient Rome.",
+            "price": "From £130/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotelcolosseum.en-gb.html?aid=304433",
+            "vibe": "Charming / Monti",
+            "area": "Rione Monti",
+            "proximity": "5 min walk to Colosseum, 8 min to Cavour Metro"
+          },
+          {
+            "name": "Nerva Boutique Hotel",
+            "desc": "Chic 20-room boutique facing the Imperial Forums with sleek modern Italian design and handmade breakfast. Exceptional service — location score 9.7.",
+            "price": "From £150/night",
+            "bookingLink": "https://www.booking.com/hotel/it/nerva.en-gb.html?aid=304433",
+            "vibe": "Boutique / Chic",
+            "area": "Rione Monti",
+            "proximity": "3 min to Colosseum, 5 min to Roman Forum"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Hotel de Russie",
+            "desc": "Legendary Rocco Forte 5-star with a secret terraced garden designed by Valadier. Classical elegance meets cosmopolitan flair at the Stravinsky Bar.",
+            "price": "From £800/night",
+            "bookingLink": "https://www.booking.com/hotel/it/de-russie.en-gb.html?aid=304433",
+            "vibe": "Legendary / Garden",
+            "area": "Spagna",
+            "proximity": "5 min to Spanish Steps, 2 min to Flaminio Metro"
+          },
+          {
+            "name": "The St. Regis Rome",
+            "desc": "The first St. Regis in Europe (1894) in a magnificent palazzo. Opulent interiors with Rubelli silks, Murano glass, and signature butler service.",
+            "price": "From £520/night",
+            "bookingLink": "https://www.booking.com/hotel/it/stregisgrandroma.en-gb.html?aid=304433",
+            "vibe": "Opulent / Historic",
+            "area": "Repubblica",
+            "proximity": "4 min to Repubblica Metro, 10 min to Trevi Fountain"
+          },
+          {
+            "name": "Hotel Eden",
+            "desc": "Dorchester Collection 5-star icon atop Via Veneto with breathtaking views from Michelin-starred rooftop La Terrazza. A favourite of royalty since 1889.",
+            "price": "From £800/night",
+            "bookingLink": "https://www.booking.com/hotel/it/eden-roma.en-gb.html?aid=304433",
+            "vibe": "Iconic / Panoramic",
+            "area": "Via Veneto",
+            "proximity": "5 min to Spanish Steps, 8 min to Barberini Metro"
+          }
+        ]
+      },
+      "donts": [
+        "Don't eat at a restaurant with pictures on the menu - you're in a tourist trap",
+        "Don't visit the Vatican without booking tickets in advance - the queue wraps around the walls",
+        "Don't throw coins into more than one fountain - it's not a wishing well, it's littering",
+        "Don't order cappuccino after 11am - Italians consider this a crime against breakfast",
+        "Don't assume all taxis are metered - agree the price before you get in"
+      ],
+      "transport": "Rome is best explored on foot. The Metro has two main lines (A and B) that cover most attractions. Buses fill the gaps. Taxis are white and official only. The Hop-On Hop-Off bus is actually useful here for the first day. Buy a 48-hour Roma Pass for unlimited transport and museum discounts.",
+      "fiestas": [
+        {
+          "season": "spring",
+          "emoji": "🎉",
+          "e": "Easter in Rome",
+          "m": "March/April",
+          "desc": "the Pope leads mass in St. Peter's Square, the whole city fills with pilgrims."
+        },
+        {
+          "season": "summer",
+          "emoji": "🎉",
+          "e": "Estate Romana",
+          "m": "June-October",
+          "desc": "free concerts, cinema screenings, and outdoor events all summer."
+        },
+        {
+          "season": "spring",
+          "emoji": "🎉",
+          "e": "Natale di Roma",
+          "m": "April 21",
+          "desc": "the city's birthday celebrated with parades and fireworks."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Buongiorno",
+          "meaning": "Good morning - use until early afternoon"
+        },
+        {
+          "phrase": "Buonasera",
+          "meaning": "Good evening - use after 4pm"
+        },
+        {
+          "phrase": "Grazie",
+          "meaning": "Thank you"
+        },
+        {
+          "phrase": "Per favore",
+          "meaning": "Please"
+        },
+        {
+          "phrase": "Un caffe, per favore",
+          "meaning": "An espresso, please (not latte)"
+        },
+        {
+          "phrase": "Il conto, per favore",
+          "meaning": "The bill, please"
+        },
+        {
+          "phrase": "Dov'e il Colosseo?",
+          "meaning": "Where is the Colosseum?"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Colosseum and Roman Forum",
+          "emoji": "🏟",
+          "desc": "Book the underground tour for access to the gladiator tunnels. Mind-blowing."
+        },
+        {
+          "name": "Vatican Museums and Sistine Chapel",
+          "emoji": "⛪",
+          "desc": "Book the earliest slot. The Sistine Chapel ceiling is genuinely overwhelming."
+        },
+        {
+          "name": "Trevi Fountain",
+          "emoji": "⛲",
+          "desc": "Go at 6am to see it without crowds. Magical."
+        },
+        {
+          "name": "Trastevere",
+          "emoji": "🏘",
+          "desc": "Best neighbourhood for evening walks and authentic Roman dinner."
+        },
+        {
+          "name": "Pantheon",
+          "emoji": "⛩",
+          "desc": "The best-preserved ancient building in Rome. Free to enter."
+        },
+        {
+          "name": "Villa Borghese",
+          "emoji": "🌳",
+          "desc": "Galleria Borghese requires booking but is worth every second."
+        },
+        {
+          "name": "Spanish Steps",
+          "emoji": "🪪",
+          "desc": "Go at sunset for the view over the city."
+        },
+        {
+          "name": "Catacombs of San Callisto",
+          "emoji": "🕯",
+          "desc": "Underground burial chambers. Eerie and fascinating."
+        }
+      ],
+      "day_trips": [
+        {
+          "name": "Ostia Antica",
+          "duration": "Half day",
+          "price": "€15pp including train",
+          "tip": "Like Pompeii but closer and far less crowded"
+        },
+        {
+          "name": "Tivoli and Villa d'Este",
+          "duration": "Full day",
+          "price": "€25pp",
+          "tip": "Renaissance villa with the most incredible fountains"
+        },
+        {
+          "name": "Castel Gandolfo",
+          "duration": "Half day",
+          "price": "€10pp",
+          "tip": "The Pope's summer residence on a crater lake"
+        }
+      ],
+      "sarah_knows": {
+        "airport": "Rome-Fiumicino Leonardo da Vinci Airport (FCO)",
+        "to_city": "Leonardo Express train to Termini (€14, 32min). Taxi (€50 fixed, 45min). Bus Terravision (€6, 50min)",
+        "best_time": "April-June or September-October for perfect weather and manageable crowds",
+        "eating": [
+          "Carbonara is made with egg, pecorino, guanciale, and black pepper. NEVER cream. If a restaurant uses cream, leave.",
+          "Dinner starts at 8pm at the earliest, 9pm is normal. Lunch is 1-3pm, not earlier.",
+          "Gelato from a shop with muted, natural colours - bright colours mean artificial flavouring, avoid it",
+          "Pasta is a first course (primo), not a main. Follow it with a second course (secondo) like real Romans."
+        ],
+        "safety": [
+          "Pickpockets are everywhere on the Metro, especially Line A. Bag in front, phone away.",
+          "The area around Termini station is safe by day but less comfortable after 10pm",
+          "Emergency: 112 (EU-wide). Rome police: 113",
+          "Watch the 'free rose' scam - someone hands you a rose then demands payment"
+        ],
+        "local_tips": [
+          "Book Colosseum and Vatican tickets WEEKS in advance - they sell out daily",
+          "The 'tap water is bad' myth - it's perfectly safe. Fill your bottle at public nasoni fountains for free",
+          "Rome is cobblestone hell - wear flat, comfortable shoes. Heels will destroy you",
+          "Many restaurants charge 'coperto' (cover charge) of €1-3 per person - it's normal, not a scam"
+        ]
+      },
+      "airport": {
+        "airports": [
+          {
+            "name": "Leonardo da Vinci-Fiumicino",
+            "code": "FCO",
+            "buses": "Every 30 min, £6-15, 45-60 min to Termini",
+            "train": "Leonardo Express every 15-30 min, £14, 32 min non-stop to Termini",
+            "taxi": "£50 flat rate (official white taxis only)"
+          },
+          {
+            "name": "Ciampino",
+            "code": "CIA",
+            "buses": "Every 30-60 min, £6-8, ~40 min to Termini",
+            "train": "Shuttle bus + FL1 train, ~30 min, £2-3",
+            "taxi": "£30-45 metered (official white taxis)"
+          }
+        ],
+        "tips": "Only use official white taxis with rooftop TAXI sign and Comune di Roma crest. FCO to centre flat rate £50. Ignore touts. Pre-book airport bus tickets online for discounts."
+      },
+      "attractionPrices": [
+        {
+          "name": "Colosseum, Forum & Palatine (combined)",
+          "priceEUR": 18,
+          "notes": "Booking essential (skip-queue). Free 1st Sun of month. Queue 1-3hrs peak."
+        },
+        {
+          "name": "Vatican Museums & Sistine Chapel",
+          "priceEUR": 25,
+          "notes": "£20 + £5 booking fee. Free last Sun of month. Queue 1-3hrs."
+        },
+        {
+          "name": "St. Peter's Basilica",
+          "priceEUR": 0,
+          "notes": "Free entry. Dome climb £10 (lift+320 steps). Dress code enforced."
+        },
+        {
+          "name": "Galleria Borghese",
+          "priceEUR": 17,
+          "notes": "Booking mandatory (2hr timed slots). Free 1st Sun. Closed Mon."
+        },
+        {
+          "name": "Pantheon",
+          "priceEUR": 5,
+          "notes": "£5 adults, £2 under 25. Free 1st Sun. Queue 15-30 min."
+        },
+        {
+          "name": "Trevi Fountain",
+          "priceEUR": 0,
+          "notes": "Always free. Best at dawn or after midnight."
+        },
+        {
+          "name": "Castel Sant'Angelo",
+          "priceEUR": 16,
+          "notes": "£16 adults. Free 1st Sun. Booking recommended."
+        },
+        {
+          "name": "Capitoline Museums",
+          "priceEUR": 16,
+          "notes": "£16 adults. Free 1st Sun. Closed Mon."
+        }
+      ],
+      "dayTrips": [
+        {
+          "name": "Tivoli",
+          "description": "Villa d'Este (Renaissance fountains), Hadrian's Villa (imperial ruins). Combined ticket £18.",
+          "transport": "Cotral bus from Ponte Mammolo (£3.20, 1-1.5h) or FL2 train from Tiburtina (£2.60, 1h).",
+          "bestFor": "Culture & history lovers, couples"
+        },
+        {
+          "name": "Ostia Antica",
+          "description": "Ancient Roman port city with theatre, baths, mosaics. Entry £18.",
+          "transport": "Metro B to Piramide, then Roma-Lido train to Ostia Antica (30 min, £1.50).",
+          "bestFor": "History buffs, budget travellers, families"
+        },
+        {
+          "name": "Pompeii",
+          "description": "Forum, amphitheatre, plaster casts. Entry £23. Full day trip.",
+          "transport": "High-speed train Termini to Napoli (70 min, £25-45) + Circumvesuviana to Pompei.",
+          "bestFor": "History enthusiasts (long day)"
+        },
+        {
+          "name": "Orvieto",
+          "description": "Duomo, underground caves, St. Patrick's Well. Carta Unica pass ~£20.",
+          "transport": "Direct train from Termini (70-90 min, £7-15) + funicular.",
+          "bestFor": "Culture, couples, food & wine"
+        },
+        {
+          "name": "Castel Gandolfo",
+          "description": "Papal Palace museum (£12), Lake Albano swimming.",
+          "transport": "Regional train from Termini (45 min, £2.10) + 15-min walk.",
+          "bestFor": "Relaxation, families, lake escape"
+        }
+      ]
+    },
+    "florence": {
+      "name": "Florence",
+      "emoji": "🎨",
+      "taglines": {
+        "beach": "landlocked - the Renaissance city doesn't need a beach",
+        "party": "wine windows, rooftop bars, respectable but not wild",
+        "culture": "the Uffizi, the Duomo, Michelangelo's David. Art overload in the best way.",
+        "food": "Tuscan steak, lampredotto, gelato that ruins all other gelato for you",
+        "relax": "Boboli Gardens, afternoon wine, watching the sunset from Piazzale Michelangelo",
+        "mix": "Florence is a living museum, and somehow it still feels like home"
+      },
+      "vibes": [
+        "culture",
+        "food",
+        "relax",
+        "mix"
+      ],
+      "gradient": [
+        "#d4a373",
+        "#7b5b3a"
+      ],
+      "welcome": "Florence is the Renaissance's greatest gift to the modern world. In no other city can you turn a corner and find yourself face-to-face with Michelangelo's David, Brunelleschi's Duomo, or Botticelli's Venus. The art is world-class, but so is the food - Florentine steak and fresh pasta will haunt your dreams. It is small, walkable, and utterly magical. Prepare to fall in love.",
+      "hotels": {
+        "budget": [
+          {
+            "name": "Plus Florence Hostel",
+            "desc": "Large, modern hostel with two swimming pools, spa, gym and rooftop bar — more like a resort. Popular with backpackers and groups.",
+            "price": "From £25/night",
+            "bookingLink": "https://www.booking.com/hotel/it/plus-florence.en-gb.html?aid=304433",
+            "vibe": "Resort-Style / Social",
+            "area": "Fortezza da Basso",
+            "proximity": "15-20 min walk to Duomo, 10 min to SMN station"
+          },
+          {
+            "name": "Hostel Santa Monaca",
+            "desc": "Historic hostel in a former 15th-century monastery in the lively Oltrarno district. Simple, authentic, pilgrim-house feel.",
+            "price": "From £21/night",
+            "bookingLink": "https://www.booking.com/hotel/it/ostello-santa-monaca.en-gb.html?aid=304433",
+            "vibe": "Historic / Authentic",
+            "area": "Oltrarno",
+            "proximity": "15 min walk to Duomo, 10 min to Ponte Vecchio"
+          },
+          {
+            "name": "Hotel Centro",
+            "desc": "Charming 2-star in a restored Renaissance palazzo that once housed Raphael. Classic Florentine style with frescoed ceilings.",
+            "price": "From £60/night",
+            "bookingLink": "https://www.booking.com/hotel/it/centro-firenze.en-gb.html?aid=304433",
+            "vibe": "Charming / Renaissance",
+            "area": "San Lorenzo",
+            "proximity": "5 min to Duomo, 5 min to Accademia"
+          }
+        ],
+        "mid": [
+          {
+            "name": "Hotel La Scaletta",
+            "desc": "Charming hotel in a 15th-century building between Ponte Vecchio and Palazzo Pitti. Rooftop terrace with panoramic Florence views.",
+            "price": "From £110/night",
+            "bookingLink": "https://www.booking.com/hotel/it/la-scaletta.en-gb.html?aid=304433",
+            "vibe": "Charming / Rooftop",
+            "area": "Oltrarno",
+            "proximity": "1 min to Ponte Vecchio, 10 min to Duomo"
+          },
+          {
+            "name": "Hotel Davanzati",
+            "desc": "Family-run 3-star with exceptional hospitality. Guests rave about the staff, happy hour and breakfast in a historic building.",
+            "price": "From £94/night",
+            "bookingLink": "https://www.booking.com/hotel/it/davanzati.en-gb.html?aid=304433",
+            "vibe": "Family-Run / Welcoming",
+            "area": "Santa Maria Novella",
+            "proximity": "5 min to Uffizi, 7 min to Duomo"
+          },
+          {
+            "name": "Hotel Casci",
+            "desc": "Simple 2-star family-run in a 15th-century building with original frescoes. Basic but clean with a warm welcome.",
+            "price": "From £50/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-casci.en-gb.html?aid=304433",
+            "vibe": "Budget / Historic",
+            "area": "San Marco",
+            "proximity": "5 min to Accademia, 10 min to Duomo"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Hotel Brunelleschi",
+            "desc": "Luxury 4-star in a restored Byzantine tower and medieval church right on the Duomo piazza. Elegant rooms with impeccable service.",
+            "price": "From £300/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotelbrunelleschi.en-gb.html?aid=304433",
+            "vibe": "Luxury / Historic",
+            "area": "Duomo",
+            "proximity": "30 sec to Duomo, 5 min to Uffizi"
+          },
+          {
+            "name": "Four Seasons Florence",
+            "desc": "Ultra-luxury 5-star in a 15th-century palazzo with 11 acres of private gardens, Michelin-star restaurant, and world-class spa.",
+            "price": "From £680/night",
+            "bookingLink": "https://www.booking.com/hotel/it/four-seasons-firenze.en-gb.html?aid=304433",
+            "vibe": "Ultra-Luxury / Garden",
+            "area": "San Marco",
+            "proximity": "15 min walk to Duomo, 10 min to Accademia"
+          },
+          {
+            "name": "Helvetia and Bristol",
+            "desc": "Historic 5-star in a 19th-century palazzo on one of Florence's prettiest squares. Old-world charm with antique furniture and a famed bar.",
+            "price": "From £380/night",
+            "bookingLink": "https://www.booking.com/hotel/it/helvetia-bristol.en-gb.html?aid=304433",
+            "vibe": "Old-World / Elegant",
+            "area": "Duomo / Piazza Repubblica",
+            "proximity": "5 min to Duomo, 5 min to Ponte Vecchio"
+          }
+        ]
+      },
+      "donts": [
+        "Don't queue for the Uffizi or Accademia without pre-booked tickets - you'll wait 3+ hours",
+        "Don't take photos inside the Sistine Chapel or the Uffizi galleries",
+        "Don't eat at a restaurant with a 'tourist menu' in multiple languages - walk away",
+        "Don't climb the Duomo if you're claustrophobic - the staircase is narrow and unrelenting"
+      ],
+      "transport": "Florence is perfectly walkable - the historic centre is compact and mostly car-free. Buses connect the suburbs but you probably won't need them. Taxis from the train station. Walk everywhere - that's the point of Florence.",
+      "fiestas": [
+        {
+          "season": "spring",
+          "emoji": "🎉",
+          "e": "Scoppio del Carro",
+          "m": "Easter Sunday",
+          "desc": "an explosive cart parade where a dove-shaped rocket lights a cart of fireworks."
+        },
+        {
+          "season": "summer",
+          "emoji": "🎉",
+          "e": "Calcio Storico",
+          "m": "June",
+          "desc": "a brutal historical football match in medieval costume."
+        },
+        {
+          "season": "summer",
+          "emoji": "🎉",
+          "e": "Festa di San Giovanni",
+          "m": "June 24",
+          "desc": "fireworks over the Arno."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Buongiorno",
+          "meaning": "Good morning"
+        },
+        {
+          "phrase": "Grazie mille",
+          "meaning": "Thank you very much"
+        },
+        {
+          "phrase": "Un chianti, per favore",
+          "meaning": "A glass of Chianti, please"
+        },
+        {
+          "phrase": "Dov'e il Duomo?",
+          "meaning": "Where is the Cathedral?"
+        },
+        {
+          "phrase": "Quanto costa?",
+          "meaning": "How much does it cost?"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Duomo and Brunelleschi's Dome",
+          "emoji": "⛪",
+          "desc": "Book the climb. The view over Florence is worth every step."
+        },
+        {
+          "name": "Uffizi Gallery",
+          "emoji": "🖼",
+          "desc": "Botticelli, Leonardo, Raphael. Book weeks ahead. Give it 3 hours."
+        },
+        {
+          "name": "Galleria dell'Accademia",
+          "emoji": "🗿",
+          "desc": "Michelangelo's David. You will cry. That's normal."
+        },
+        {
+          "name": "Ponte Vecchio",
+          "emoji": "🌉",
+          "desc": "The bridge with shops built into it. Go at sunrise for photos."
+        },
+        {
+          "name": "Boboli Gardens",
+          "emoji": "🌺",
+          "desc": "Renaissance gardens behind the Pitti Palace. Peaceful afternoon escape."
+        },
+        {
+          "name": "Piazzale Michelangelo",
+          "emoji": "🌅",
+          "desc": "Sunset viewpoint over the whole city. Bring wine."
+        },
+        {
+          "name": "Santa Croce Basilica",
+          "emoji": "⛪",
+          "desc": "Burial place of Michelangelo, Galileo, and Machiavelli."
+        },
+        {
+          "name": "Mercato Centrale",
+          "emoji": "🥩",
+          "desc": "Eat at the upstairs food hall. The truffle pasta is extraordinary."
+        }
+      ],
+      "day_trips": [
+        {
+          "name": "Fiesole",
+          "duration": "Half day",
+          "price": "€3pp bus",
+          "tip": "Ancient Roman ruins and views over Florence from the hills"
+        },
+        {
+          "name": "Siena",
+          "duration": "Full day",
+          "price": "€20pp train",
+          "tip": "Medieval rival city. The Piazza del Campo is one of Europe's great squares"
+        },
+        {
+          "name": "San Gimignano",
+          "duration": "Full day",
+          "price": "€25pp",
+          "tip": "The city of towers - 14 medieval skyscrapers still standing"
+        },
+        {
+          "name": "Chianti Wine Region",
+          "duration": "Full day",
+          "price": "€60pp tour",
+          "tip": "The classic Tuscany day out - castles, vineyards, olive groves"
+        }
+      ],
+      "airport": {
+        "airports": [
+          {
+            "name": "Florence Peretola",
+            "code": "FLR",
+            "buses": "No direct bus; tram T2 to city centre",
+            "train": "No train; tram T2 to SMN station",
+            "taxi": "~€22-25, 15-20 min to centre"
+          },
+          {
+            "name": "Pisa Galileo Galilei",
+            "code": "PSA",
+            "buses": "Terravision/flibco bus, ~€10-15, 1h 15min, hourly",
+            "train": "Trenitalia regional, ~€8-10, ~1h, every 15-30 min",
+            "taxi": "~€120-150, 1h 15min private transfer"
+          }
+        ],
+        "tips": "FLR tram T2 runs 5:00-00:30 (Fri-Sat until 02:00), every 5-18 min, €2. Pisa train is fastest value option; book regional tickets on the day."
+      },
+      "attractionPrices": [
+        {
+          "name": "Duomo Complex",
+          "priceEUR": 30,
+          "notes": "Cathedral free. Brunelleschi Pass €30 (Dome, Bell Tower, Baptistery, Museum, Crypt) valid 72h. Book dome climb time slot online."
+        },
+        {
+          "name": "Uffizi Gallery",
+          "priceEUR": 29,
+          "notes": "€29 online, €25 on-site. Free 1st Sun monthly. Closed Mondays. Book timed slot 2+ weeks ahead."
+        },
+        {
+          "name": "Accademia Gallery (David)",
+          "priceEUR": 16,
+          "notes": "€16 on-site. Free 1st Sun monthly. Closed Mondays. Must book in peak season."
+        },
+        {
+          "name": "Palazzo Vecchio",
+          "priceEUR": 19,
+          "notes": "€19 full (museum + tower). Free 1st Sun monthly. Under-18 free."
+        },
+        {
+          "name": "Boboli Gardens",
+          "priceEUR": 13,
+          "notes": "€13 online, €10 on-site. Free 1st Sun monthly. Combined with Pitti Palace €22."
+        },
+        {
+          "name": "Ponte Vecchio",
+          "priceEUR": 0,
+          "notes": "Free, always open. Best at sunset."
+        },
+        {
+          "name": "Piazzale Michelangelo",
+          "priceEUR": 0,
+          "notes": "Free panoramic viewpoint. Best at sunset."
+        }
+      ],
+      "dayTrips": [
+        {
+          "name": "Siena",
+          "description": "UNESCO medieval city with shell-shaped Piazza del Campo, Gothic Duomo, Palio horse race.",
+          "transport": "Train from SMN ~1.5h, €10-15; bus ~1h 15min, €7-10",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Pisa",
+          "description": "Leaning Tower, Piazza dei Miracoli, Cathedral, Baptistery. Easy half-day.",
+          "transport": "Train from SMN ~1h, €8-10, up to 47 trains/day. 20 min walk to tower.",
+          "bestFor": "Family"
+        },
+        {
+          "name": "San Gimignano",
+          "description": "Hilltop medieval town with 14 surviving tower-houses, gelato shops, panoramic views.",
+          "transport": "Bus to Poggibonsi (1h, €5-8) then local bus 130 (15 min)",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Chianti",
+          "description": "Wine region with rolling vineyards, olive groves, medieval castles, wine tasting.",
+          "transport": "Best by organised tour (~€49-69) or car. Bus 365 from Florence ~1h.",
+          "bestFor": "Couples"
+        },
+        {
+          "name": "Fiesole",
+          "description": "Ancient Etruscan-Roman hill town with ruins, cathedral, panoramic Florence views.",
+          "transport": "Bus #7 from Piazza San Marco ~25-30 min, €1.70, every 20 min",
+          "bestFor": "Culture"
+        }
+      ],
+      "sarah_knows": {
+        "airport": "Amerigo Vespucci Airport (FLR)",
+        "to_city": "Tram T2 from airport to Santa Maria Novella station (€1.70, 22min). Or Volainbus shuttle (€6, 25min). Taxi (€25 fixed, 20min)",
+        "best_time": "April-June or September-October. July-August is packed and painfully hot",
+        "eating": [
+          "Bistecca alla Fiorentina is a T-bone steak, rare-cooked. Order it for two at minimum",
+          "Lampredotto is a street food sandwich of cow's fourth stomach - try it before you say no",
+          "Gelato at Gelateria dei Neri is the best in Florence. Queue is worth it",
+          "Chianti Classico from a black rooster bottle is the real deal"
+        ],
+        "safety": [
+          "Pickpockets around the Duomo and Uffizi - bag in front always",
+          "The area around Santa Maria Novella station is fine by day, less comfortable after dark",
+          "Emergency: 112 (EU-wide)"
+        ],
+        "local_tips": [
+          "Book Uffizi and Accademia tickets a MONTH in advance during high season",
+          "The Firenze Card is worth it if you plan 5+ museums in 72 hours",
+          "Climb Giotto's Campanile instead of the Duomo - shorter queue, better view",
+          "Visit the 'wine windows' (buchette del vino) - tiny hatches where wine was sold during plague"
+        ]
+      }
+    },
+    "venice": {
+      "name": "Venice",
+      "emoji": "🚣",
+      "taglines": {
+        "beach": "the whole city is a lagoon - beaches at Lido a 10-min boat ride",
+        "party": "carnival, aperitivo hour, jazz bars in Dorsoduro",
+        "culture": "St. Mark's, Doge's Palace, the Biennale - Venice is one giant masterpiece",
+        "food": "cicchetti, fresh lagoon seafood, the best tiramisu of your life",
+        "relax": "gondola rides are touristy, but also genuinely magical",
+        "mix": "Venice is impossible. Impossible to describe, impossible to forget."
+      },
+      "vibes": [
+        "culture",
+        "food",
+        "relax",
+        "mix"
+      ],
+      "gradient": [
+        "#1a5276",
+        "#2980b9"
+      ],
+      "welcome": "Venice is a dream made real. Built on water, held up by wooden piles driven into the lagoon floor over a thousand years ago, it should not exist - and yet here it is, impossibly beautiful. St. Mark's Square, the Grand Canal, the quiet backstreets with laundry hanging overhead. Getting lost is the point. Every corner reveals something extraordinary.",
+      "hotels": {
+        "budget": [
+          {
+            "name": "Generator Venice",
+            "desc": "Stylish hostel on Giudecca Island in a converted warehouse with mosaic floors and Grand Canal views. Popular with younger travellers.",
+            "price": "From £15/night",
+            "bookingLink": "https://www.booking.com/hotel/it/ostello-venezia.en-gb.html?aid=304433",
+            "vibe": "Design / Social",
+            "area": "Giudecca",
+            "proximity": "10-min vaporetto to St Mark's, 10-min to Rialto"
+          },
+          {
+            "name": "Ostello Venezia",
+            "desc": "Original HI hostel on Giudecca Island with dorms and private rooms across from St Mark's. Clean, no-frills with lively common area.",
+            "price": "From £15/night",
+            "bookingLink": "https://www.booking.com/hotel/it/ostello-venezia.en-gb.html?aid=304433",
+            "vibe": "Budget / Classic",
+            "area": "Giudecca",
+            "proximity": "10-min vaporetto to St Mark's"
+          },
+          {
+            "name": "Hotel Tintoretto",
+            "desc": "Characteristic 3-star in Cannaregio with elegant en-suite rooms, warm colours and canal views. On-site restaurant with regional cuisine.",
+            "price": "From £69/night",
+            "bookingLink": "https://www.booking.com/hotel/it/tintoretto.en-gb.html?aid=304433",
+            "vibe": "Charming / Canal",
+            "area": "Cannaregio",
+            "proximity": "5-min walk to Rialto, 15-min to St Mark's"
+          }
+        ],
+        "mid": [
+          {
+            "name": "Hotel San Cassiano Ca' Favretto",
+            "desc": "Elegant 4-star in a 14th-century palazzo with Grand Canal views. Antique furniture, Murano chandeliers and period charm.",
+            "price": "From £72/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotelsancassiano.en-gb.html?aid=304433",
+            "vibe": "Historic / Elegant",
+            "area": "Santa Croce",
+            "proximity": "8-min walk to Rialto, 15-min to St Mark's"
+          },
+          {
+            "name": "Ca' dei Dogi",
+            "desc": "Charming guesthouse in a historic palace next to the Doge's Palace. Rooftop terrace overlooking palace spires and Bridge of Sighs.",
+            "price": "From £86/night",
+            "bookingLink": "https://www.booking.com/hotel/it/ca-dei-dogi-venezia.en-gb.html?aid=304433",
+            "vibe": "Romantic / Rooftop",
+            "area": "Castello",
+            "proximity": "2-min walk to Doge's Palace, 4-min to St Mark's"
+          },
+          {
+            "name": "Hotel Palazzo Barbarigo",
+            "desc": "Boutique 4-star in a 16th-century palazzo on the Grand Canal with original frescoes. Winner of Italian TV show 4 Hotels.",
+            "price": "From £215/night",
+            "bookingLink": "https://www.booking.com/hotel/it/palazzo-barbarigo-sul-canal-grande.en-gb.html?aid=304433",
+            "vibe": "Boutique / Grand Canal",
+            "area": "San Polo",
+            "proximity": "On Grand Canal, 10-min walk to Rialto"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Hotel Danieli",
+            "desc": "Legendary 5-star (Four Seasons) in three interconnecting 15th-century palaces. Ornate Venetian architecture and famed rooftop restaurant.",
+            "price": "From £600/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hoteldanielivenice.en-gb.html?aid=304433",
+            "vibe": "Legendary / Luxury",
+            "area": "Castello",
+            "proximity": "Steps from St Mark's Square"
+          },
+          {
+            "name": "Ca' Maria Adele",
+            "desc": "Intimate 12-room boutique beside Basilica della Salute, named most romantic boutique hotel in the world in 2014.",
+            "price": "From £231/night",
+            "bookingLink": "https://www.booking.com/hotel/it/camariaadelevanezia.en-gb.html?aid=304433",
+            "vibe": "Boutique / Romantic",
+            "area": "Dorsoduro",
+            "proximity": "5-min vaporetto to St Mark's"
+          },
+          {
+            "name": "Palazzo Venart Luxury Hotel",
+            "desc": "Opulent 5-star in a restored 16th-century palace on the Grand Canal. Michelin-starred Glam restaurant.",
+            "price": "From £391/night",
+            "bookingLink": "https://www.booking.com/hotel/it/palazzo-venart-luxury.en-gb.html?aid=304433",
+            "vibe": "Opulent / Garden",
+            "area": "Santa Croce",
+            "proximity": "10-min walk to Rialto, 10-15 min to St Mark's"
+          }
+        ]
+      },
+      "donts": [
+        "Don't eat at the tables on St. Mark's Square - €50 for a spag bol is not a flex",
+        "Don't take a gondola from the main tourist spots - walk a few streets back for half the price",
+        "Don't touch the water - it will ruin your leather shoes permanently",
+        "Don't try to drive to Venice - leave the car in Mestre and take the train over the bridge",
+        "Don't expect to see everything in a weekend - Venice rewards slow exploration"
+      ],
+      "transport": "Venice has no cars. Walk or take the vaporetto (water bus). The vaporetto system is the public transport - buy a 24/48/72-hour pass. Water taxis are fast but very expensive. Traghetti (tiny gondola ferries) cross the Grand Canal for €2.",
+      "fiestas": [
+        {
+          "season": "spring",
+          "emoji": "🎉",
+          "e": "Carnevale di Venezia",
+          "m": "February/March before Lent",
+          "desc": "the most famous masquerade ball on earth."
+        },
+        {
+          "season": "autumn",
+          "emoji": "🎉",
+          "e": "Festa della Salute",
+          "m": "November 21",
+          "desc": "pilgrims cross a temporary bridge to the Salute church."
+        },
+        {
+          "season": "summer",
+          "emoji": "🎉",
+          "e": "Regata Storica",
+          "m": "first Sunday in September",
+          "desc": "historical gondola parade and races on the Grand Canal."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Buongiorno",
+          "meaning": "Good morning"
+        },
+        {
+          "phrase": "Grazie",
+          "meaning": "Thank you"
+        },
+        {
+          "phrase": "Un'ombra",
+          "meaning": "A glass of wine (literally 'a shadow')"
+        },
+        {
+          "phrase": "Dov'e Rialto?",
+          "meaning": "Where is the Rialto Bridge?"
+        },
+        {
+          "phrase": "Quanto costa un giro in gondola?",
+          "meaning": "How much is a gondola ride?"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "St. Mark's Basilica",
+          "emoji": "⛪",
+          "desc": "Byzantine gold mosaics that cover every surface. Go at opening."
+        },
+        {
+          "name": "Doge's Palace",
+          "emoji": "🏰",
+          "desc": "The seat of Venetian power. The Bridge of Sighs connects to the prison."
+        },
+        {
+          "name": "Grand Canal",
+          "emoji": "🚢",
+          "desc": "Take vaporetto line 1 from one end to the other - the cheapest sightseeing tour."
+        },
+        {
+          "name": "Rialto Bridge and Market",
+          "emoji": "🌉",
+          "desc": "Early morning market is best. Go before 9am."
+        },
+        {
+          "name": "Peggy Guggenheim Collection",
+          "emoji": "🎨",
+          "desc": "20th century art in a palazzo on the Grand Canal."
+        },
+        {
+          "name": "Burano Island",
+          "emoji": "🏠",
+          "desc": "Colourful fishermen's houses. A photographer's dream. 40-min vaporetto."
+        },
+        {
+          "name": "Murano Island",
+          "emoji": "🔮",
+          "desc": "Glass-blowing workshops. Watch masters at work. Free demos."
+        },
+        {
+          "name": "Dorsoduro",
+          "emoji": "🏘",
+          "desc": "Quietest sestiere. Best for genuine local bars and restaurants."
+        }
+      ],
+      "day_trips": [
+        {
+          "name": "Burano and Murano",
+          "duration": "Half day",
+          "price": "€20pp vaporetto pass",
+          "tip": "Go early - Burano is a photographer's paradise before the crowds"
+        },
+        {
+          "name": "Lido di Venezia",
+          "duration": "Half day",
+          "price": "€15pp",
+          "tip": "Venice's beach island. Peaceful, sandy, good for an escape"
+        },
+        {
+          "name": "Padua (Padova)",
+          "duration": "Full day",
+          "price": "€10pp train",
+          "tip": "Giotto's Scrovegni Chapel frescoes are among the most important paintings in history"
+        },
+        {
+          "name": "Verona",
+          "duration": "Full day",
+          "price": "€25pp train",
+          "tip": "Romeo and Juliet's balcony, Roman arena, beautiful city less than 2 hours away"
+        }
+      ],
+      "airport": {
+        "airports": [
+          {
+            "name": "Venice Marco Polo",
+            "code": "VCE",
+            "buses": "Alilaguna water bus €18 (60-90 min); ACTV Aerobus €10 (25 min to Piazzale Roma); ATVO Express €12 (20 min to Piazzale Roma)",
+            "train": "No direct train. Bus to Mestre station then train to Santa Lucia (~€1.50 + €10 bus)",
+            "taxi": "Private water taxi €110-130 (30 min, up to 5 pax); shared water taxi ~€30-39 pp"
+          },
+          {
+            "name": "Treviso",
+            "code": "TSF",
+            "buses": "ATVO express bus €14 (60-70 min to Piazzale Roma); Barzi bus €10 (40 min to Tronchetto)",
+            "train": "Bus line 6 to Treviso station (€2-3, 15 min) then train to Santa Lucia (€3-5, 30-40 min)",
+            "taxi": "~€80-100 (40-50 min); shared transfer ~€40-60 pp"
+          }
+        ],
+        "tips": "Buy Alilaguna tickets online or at airport kiosk (not ACTV machines). ACTV Aerobus cheaper but stop at Piazzale Roma only. 24h ACTV pass (€25) worth it if using vaporetto same day."
+      },
+      "attractionPrices": [
+        {
+          "name": "St Mark's Basilica",
+          "priceEUR": 10,
+          "notes": "Basic €10. Full ticket (incl. Pala d'Oro + Museum) €30. Campanile €15. Skip-the-line €8."
+        },
+        {
+          "name": "Doge's Palace",
+          "priceEUR": 35,
+          "notes": "Combo ticket includes Correr Museum, Archaeological Museum & Marciana Library. Free 1st Sun."
+        },
+        {
+          "name": "Gondola ride",
+          "priceEUR": 90,
+          "notes": "€90 per boat (up to 5) for 30 min daytime. €110 for 35 min evening. Fixed city-wide rates."
+        },
+        {
+          "name": "Peggy Guggenheim Collection",
+          "priceEUR": 17,
+          "notes": "€17 adults, €14 seniors 70+, €9 students. Closed Tuesdays."
+        },
+        {
+          "name": "Ca' Rezzonico",
+          "priceEUR": 15,
+          "notes": "€15 adults, €7.50 reduced. Part of MUVE Museum Pass (€50 for 11 museums)."
+        },
+        {
+          "name": "Scuola Grande di San Rocco",
+          "priceEUR": 10,
+          "notes": "€10 adults, €8 reduced. Audio guide included. Buy at door only."
+        }
+      ],
+      "dayTrips": [
+        {
+          "name": "Murano",
+          "description": "Glass-blowing island, Museo del Vetro (€15), authentic Murano glass shopping.",
+          "transport": "Vaporetto Line 12 from Fondamente Nove, 15 min, €9.50 single or €25 24h pass",
+          "bestFor": "Glass art, souvenirs"
+        },
+        {
+          "name": "Burano",
+          "description": "Rainbow-coloured fishermen's island, lace-making museum (€5), extremely photogenic.",
+          "transport": "Vaporetto Line 12 from Fondamente Nove (45 min) or from Murano (30 min)",
+          "bestFor": "Photography, lace"
+        },
+        {
+          "name": "Torcello",
+          "description": "Near-deserted island with 12th-century Byzantine cathedral (€5), peaceful atmosphere.",
+          "transport": "Vaporetto Line 12 from Burano (5 min). Best after Murano + Burano.",
+          "bestFor": "History, escaping crowds"
+        },
+        {
+          "name": "Padua",
+          "description": "Giotto's Scrovegni Chapel frescoes (UNESCO), world's oldest botanical garden.",
+          "transport": "Regional train from Santa Lucia, 25-35 min, €4-9.50 each way, every 15-30 min",
+          "bestFor": "Art lovers, history"
+        },
+        {
+          "name": "Verona",
+          "description": "Roman Arena (opera venue), Juliet's Balcony, Piazza delle Erbe, great wine.",
+          "transport": "Regional/high-speed train from Santa Lucia, 1-1.5 hr, €8-15 each way",
+          "bestFor": "Romance, architecture"
+        }
+      ],
+      "sarah_knows": {
+        "airport": "Marco Polo Airport (VCE) or Treviso Airport (TSF for Ryanair)",
+        "to_city": "Alilaguna water bus from Marco Polo to St. Mark's (€15, 1hr). ATVO bus to Piazzale Roma (€8, 20min). Water taxi (€100+, 20min)",
+        "best_time": "March-May or September-October. Avoid November-February (acqua alta flooding) and July-August (crowded, hot, smelly)",
+        "eating": [
+          "Cicchetti are Venetian tapas - small plates, €2-4 each, eaten standing at a bar",
+          "Spritz (Aperol or Select) is the local drink. It was invented here, not in Milan",
+          "Sarde in saor (sweet and sour sardines) is the most authentic Venetian dish",
+          "Restaurants near Rialto and St. Mark's are worse and more expensive - walk 10 minutes away"
+        ],
+        "safety": [
+          "Venice is very safe but water levels (acqua alta) can make walking dangerous - check the tide forecast app",
+          "Pickpockets on vaporettos during rush hour - bag zipped and in front",
+          "Emergency: 112 (EU-wide)"
+        ],
+        "local_tips": [
+          "Buy a vaporetto pass - single tickets are €9.50, a 72-hour pass is €45",
+          "The Ghetto is the oldest Jewish quarter in the world - worth a visit",
+          "Venice isn't an amusement park, it's a living city with 50,000 residents - be respectful",
+          "Book everything in advance during Carnival - accommodation triples in price"
+        ]
+      }
+    },
+    "milan": {
+      "name": "Milan",
+      "emoji": "🏙",
+      "taglines": {
+        "beach": "landlocked - but Lake Como is an hour north",
+        "party": "designer clubs, fashion weeks, aperitivo culture that defines Italian nightlife",
+        "culture": "The Last Supper, La Scala, the Duomo. High culture at its highest.",
+        "food": "risotto alla Milanese, cotoletta, panettone. The food capital of the north.",
+        "relax": "Brera district, art galleries, spritz at sunset",
+        "mix": "Milan is Italy's only real metropolis - business, fashion, and extraordinary culture"
+      },
+      "vibes": [
+        "culture",
+        "food",
+        "party",
+        "relax",
+        "mix"
+      ],
+      "gradient": [
+        "#7d3c98",
+        "#4a235a"
+      ],
+      "welcome": "Milan is Italy's engine - the fashion capital, design capital, and financial heart of the country. But don't let the skyscrapers fool you, the city has a soul. Leonardo's Last Supper hides in a convent wall. La Scala is the most famous opera house in the world. The Duomo took 600 years to build and it shows. Milan is fast, stylish, and utterly captivating.",
+      "hotels": {
+        "budget": [
+          {
+            "name": "Ostello Bello Grande",
+            "desc": "High-energy hostel steps from Centrale with daily karaoke, pub crawls, free pasta kitchen and 24hr bar.",
+            "price": "From £15/night",
+            "bookingLink": "https://www.booking.com/hotel/it/ostello-bello-grande.en-gb.html?aid=304433",
+            "vibe": "Social / High-Energy",
+            "area": "Centrale",
+            "proximity": "50m from Milano Centrale, 25-min walk to Duomo"
+          },
+          {
+            "name": "Carlo Goldoni Hotel",
+            "desc": "Simple 2-star family-run hotel near Dateo station. Soundproofed rooms with AC, free WiFi, terrace and bar.",
+            "price": "From £40/night",
+            "bookingLink": "https://www.booking.com/hotel/it/carlo-goldoni.en-gb.html?aid=304433",
+            "vibe": "Budget / Practical",
+            "area": "Dateo",
+            "proximity": "15-min tram to Duomo"
+          },
+          {
+            "name": "NYX Hotel Milan",
+            "desc": "Trendy art-driven hotel with street-art murals, DJ nights and vintage video games. Rooftop terrace overlooking the skyline.",
+            "price": "From £80/night",
+            "bookingLink": "https://www.booking.com/hotel/it/nyx-milan.en-gb.html?aid=304433",
+            "vibe": "Trendy / Art",
+            "area": "Centrale",
+            "proximity": "Next to Centrale station, 15-min metro to Duomo"
+          }
+        ],
+        "mid": [
+          {
+            "name": "Room Mate Giulia",
+            "desc": "Boutique design hotel in a 19th-century building with vintage-themed interiors. Calm and refined with fitness centre and sauna.",
+            "price": "From £255/night",
+            "bookingLink": "https://www.booking.com/hotel/it/room-mate-giulia.en-gb.html?aid=304433",
+            "vibe": "Boutique / Design",
+            "area": "Centro Storico",
+            "proximity": "2-min walk to Duomo"
+          },
+          {
+            "name": "Hotel Spadari al Duomo",
+            "desc": "Elegant 4-star filled with contemporary artwork. Exceptional service and American buffet breakfast.",
+            "price": "From £280/night",
+            "bookingLink": "https://www.booking.com/hotel/it/spadari-al-duomo.en-gb.html?aid=304433",
+            "vibe": "Elegant / Artistic",
+            "area": "Centro Storico",
+            "proximity": "2-min walk to Duomo"
+          },
+          {
+            "name": "NH Collection Milano President",
+            "desc": "Sleek 5-star near San Babila with 274 rooms. Polished Italian design and excellent restaurant.",
+            "price": "From £160/night",
+            "bookingLink": "https://www.booking.com/hotel/it/nh-collection-milano-president.en-gb.html?aid=304433",
+            "vibe": "Sleek / Professional",
+            "area": "Centro Storico",
+            "proximity": "8-min walk to Duomo"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Armani Hotel Milano",
+            "desc": "Minimalist luxury by Giorgio Armani. Indoor pool, Armani/SPA with panoramic views, sophisticated restaurant.",
+            "price": "From £500/night",
+            "bookingLink": "https://www.booking.com/hotel/it/armani-milano.en-gb.html?aid=304433",
+            "vibe": "Minimalist / Luxury",
+            "area": "Quadrilatero della Moda",
+            "proximity": "10-min walk to Duomo"
+          },
+          {
+            "name": "Four Seasons Milan",
+            "desc": "Ultra-luxury in a converted 15th-century convent with frescoed ceilings, garden courtyard and world-class spa.",
+            "price": "From £1,100/night",
+            "bookingLink": "https://www.booking.com/hotel/it/four-seasons-milano.en-gb.html?aid=304433",
+            "vibe": "Ultra-Luxury / Convent",
+            "area": "Quadrilatero della Moda",
+            "proximity": "10-min walk to Duomo"
+          },
+          {
+            "name": "Mandarin Oriental Milan",
+            "desc": "Chic 5-star with courtyard, Michelin-starred dining and serene spa. Milanese elegance meets Oriental luxury.",
+            "price": "From £850/night",
+            "bookingLink": "https://www.booking.com/hotel/it/mandarin-oriental-milan.en-gb.html?aid=304433",
+            "vibe": "Chic / Courtyard",
+            "area": "Centro Storico (near La Scala)",
+            "proximity": "5-min walk to Duomo"
+          }
+        ]
+      },
+      "donts": [
+        "Don't order a cappuccino after 11am - you'll get a lecture from every Italian in the room",
+        "Don't expect the city to be as immediately beautiful as Rome or Florence - Milan reveals itself slowly",
+        "Don't skip the happy hour (aperitivo) - this is where Milan comes alive",
+        "Don't take a photo of The Last Supper without booking tickets months in advance - you won't get in",
+        "Don't call panettone a cake - it's panettone. And it originated here."
+      ],
+      "transport": "The Metro is excellent, clean, and covers the whole city. A 24-hour ticket costs €4.50 and is incredible value. Trams are historic and charming. The city is walkable but big - use the Metro between districts. Taxis are metered and honest.",
+      "fiestas": [
+        {
+          "season": "spring",
+          "emoji": "🎉",
+          "e": "Fashion Week",
+          "m": "Feb/March and Sept/Oct",
+          "desc": "the city transforms. Book everything far in advance."
+        },
+        {
+          "season": "spring",
+          "emoji": "🎉",
+          "e": "Salone del Mobile",
+          "m": "April",
+          "desc": "design week that takes over the entire city."
+        },
+        {
+          "season": "summer",
+          "emoji": "🎉",
+          "e": "Festa del Naviglio",
+          "m": "June",
+          "desc": "canal festival with markets and concerts."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Salve",
+          "meaning": "Formal hello - common in Milan more than 'ciao'"
+        },
+        {
+          "phrase": "Un aperol spritz, per favore",
+          "meaning": "An Aperol spritz, please"
+        },
+        {
+          "phrase": "Dov'e il Duomo?",
+          "meaning": "Where is the Cathedral?"
+        },
+        {
+          "phrase": "Grazie",
+          "meaning": "Thank you"
+        },
+        {
+          "phrase": "Quanto costa?",
+          "meaning": "How much does it cost?"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Duomo di Milano",
+          "emoji": "⛪",
+          "desc": "Go to the roof. The city's best view. 600 years of construction."
+        },
+        {
+          "name": "The Last Supper (Cenacolo Vinciano)",
+          "emoji": "🎨",
+          "desc": "Book months ahead. 15-minute viewing slots. Absolutely worth it."
+        },
+        {
+          "name": "La Scala Opera House",
+          "emoji": "🎭",
+          "desc": "Tour the museum and theatre. Book a performance if you can."
+        },
+        {
+          "name": "Galleria Vittorio Emanuele II",
+          "emoji": "🏛",
+          "desc": "The world's oldest shopping mall. Spin on the bull's testicles for luck."
+        },
+        {
+          "name": "Sforza Castle",
+          "emoji": "🏰",
+          "desc": "Michelangelo's last sculpture is inside. Free entry to the grounds."
+        },
+        {
+          "name": "Brera District",
+          "emoji": "🏘",
+          "desc": "Milan's artsy neighbourhood. Galleries, boutiques, best aperitivo bars."
+        },
+        {
+          "name": "Navigli District",
+          "emoji": "🚤",
+          "desc": "The canal district. Best nightlife and restaurant scene in Milan."
+        },
+        {
+          "name": "Pinacoteca di Brera",
+          "emoji": "🖼",
+          "desc": "Raphael, Caravaggio, Bellini. World-class collection."
+        }
+      ],
+      "day_trips": [
+        {
+          "name": "Lake Como",
+          "duration": "Full day",
+          "price": "€15pp train",
+          "tip": "Bellagio is the most beautiful town. Take the ferry between villages."
+        },
+        {
+          "name": "Bergamo",
+          "duration": "Half day",
+          "price": "€5pp train",
+          "tip": "Citta Alta (upper town) is medieval perfection. 50 minutes by train."
+        },
+        {
+          "name": "Pavia and Certosa",
+          "duration": "Half day",
+          "price": "€10pp",
+          "tip": "Renaissance monastery of Certosa di Pavia is one of Italy's hidden gems"
+        }
+      ],
+      "airport": {
+        "airports": [
+          {
+            "name": "Milan Malpensa",
+            "code": "MXP",
+            "buses": "Terravision/Malpensa Shuttle €10, 50 min to Milano Centrale, every 20-30 min",
+            "train": "Malpensa Express €15, 50 min to Cadorna/Centrale, every 30 min",
+            "taxi": "€95 flat rate, 45 min"
+          },
+          {
+            "name": "Milan Linate",
+            "code": "LIN",
+            "buses": "Starfly/Air Bus 73 €5-7, 25 min to Milano Centrale, every 20-30 min",
+            "train": "Metro M4 €2.20, 12 min to San Babila, every 5 min",
+            "taxi": "€30-40 metered, 20 min"
+          },
+          {
+            "name": "Bergamo Orio al Serio",
+            "code": "BGY",
+            "buses": "Orio Shuttle/Terravision/Flixbus €10-12, 50 min to Milano Centrale, every 30 min",
+            "train": "No direct rail; bus to Bergamo station then train (€7-10, ~1.5h total)",
+            "taxi": "€100+, 50 min"
+          }
+        ],
+        "tips": "MXP is main hub furthest out (50km). LIN is closest (7km) with fast M4 metro. BGY serves budget airlines; Orio Shuttle is best value."
+      },
+      "attractionPrices": [
+        {
+          "name": "Duomo di Milano",
+          "priceEUR": 13.50,
+          "notes": "+Rooftop stairs €26; +elevator €32. Free 1st Sun. Book rooftop time slot online."
+        },
+        {
+          "name": "The Last Supper",
+          "priceEUR": 15,
+          "notes": "Mandatory advance booking — sells out weeks ahead. 15-min timed slots. Closed Mondays."
+        },
+        {
+          "name": "Sforza Castle",
+          "priceEUR": 10,
+          "notes": "Grounds free. Museums €10 full. Free 1st & 3rd Tue 2pm, 1st Sun. Houses Michelangelo's Pietà Rondanini."
+        },
+        {
+          "name": "Brera Gallery",
+          "priceEUR": 15,
+          "notes": "EU 18-25 €2. Free 1st Sun (reservation required). Closed Mondays. Raphael, Mantegna, Caravaggio."
+        },
+        {
+          "name": "La Scala Museum",
+          "priceEUR": 12,
+          "notes": "Reduced €8 (6-18yr, 65+, students). Includes theatre auditorium view (if no rehearsal)."
+        },
+        {
+          "name": "Galleria Vittorio Emanuele II",
+          "priceEUR": 0,
+          "notes": "Free entry, open 24/7. Historic arcade with luxury boutiques."
+        },
+        {
+          "name": "Navigli District",
+          "priceEUR": 0,
+          "notes": "Free canal district. Best at evening for aperitivo."
+        }
+      ],
+      "dayTrips": [
+        {
+          "name": "Lake Como",
+          "description": "Alpine lake with elegant villas, Bellagio, Varenna, boat ferries.",
+          "transport": "Train Milano Centrale to Como S. Giovanni (35-40 min, €5) or Varenna (60 min, €8). Ferries €5-15.",
+          "bestFor": "Couples"
+        },
+        {
+          "name": "Bergamo",
+          "description": "Medieval hilltop Città Alta, funicular, Venetian walls (UNESCO), Piazza Vecchia.",
+          "transport": "Train Milano Centrale to Bergamo (50 min, €5-7). Funicular to Città Alta €1.30.",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Pavia",
+          "description": "University city with Certosa di Pavia monastery, Visconti Castle, Romanesque churches.",
+          "transport": "Train Milano Centrale/Rogoredo to Pavia (20-30 min, €5)",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Verona",
+          "description": "Juliet's balcony, Roman Arena (opera venue), Piazza delle Erbe, Ponte Pietra.",
+          "transport": "High-speed train Milano Centrale to Verona Porta Nuova (1h 20min, €15-25)",
+          "bestFor": "Couples"
+        },
+        {
+          "name": "Turin",
+          "description": "Egyptian Museum, Mole Antonelliana, Savoy palaces, chocolate culture.",
+          "transport": "High-speed train Milano Centrale to Torino Porta Nuova (1h, €15-30)",
+          "bestFor": "Culture"
+        }
+      ],
+      "sarah_knows": {
+        "airport": "Malpensa Airport (MXP) - main. Linate (LIN) - closer. Bergamo (BGY) - Ryanair",
+        "to_city": "Malpensa Express train to Cadorna/Centrale (€13, 50min). Bus to Centrale (€10, 50min). Taxi from Malpensa (€95 fixed, 45min)",
+        "best_time": "April-June or September-October. Skip August (city empties out, many places closed)",
+        "eating": [
+          "Risotto alla Milanese is saffron risotto - the golden colour comes from real saffron, not turmeric",
+          "Cotoletta alla Milanese is a breaded veal chop, fried in butter - bigger and better than a schnitzel",
+          "Panettone was invented in Milan - buy it at Pasticceria Marchesi for the real version",
+          "Aperitivo in Milan means a buffet of food included with your drink - skip dinner and do this instead"
+        ],
+        "safety": [
+          "Milan is generally safe but Central Station and the Navigli area at night require awareness",
+          "Pickpockets on the Metro (especially M1, M3 lines) - keep bags zipped",
+          "Emergency: 112 (EU-wide)"
+        ],
+        "local_tips": [
+          "Book The Last Supper at least 2 months ahead - tickets release monthly and sell out within hours",
+          "Duomo roof tickets are a separate purchase from the cathedral entry",
+          "Milan is a walking city for the centre, but use Metro for Porta Nuova and Navigli",
+          "Fashion Week means hotel prices triple - avoid if you're not here for fashion"
+        ]
+      }
+    },
+    "naples": {
+      "name": "Naples",
+      "emoji": "🍕",
+      "taglines": {
+        "beach": "Posillipo, Sorrento coast, the islands - Naples is the gateway",
+        "party": "chaotic, loud, brilliant. Naples parties like it has nothing to lose.",
+        "culture": "Pompeii, Herculaneum, the National Museum. History is everywhere here.",
+        "food": "pizza. The best pizza on earth. Then sfogliatella, then more pizza.",
+        "relax": "there's no such thing as a quiet Naples day - and that's the point",
+        "mix": "Naples is chaos, crime, and the most beautiful street food in Europe"
+      },
+      "vibes": [
+        "culture",
+        "food",
+        "beach",
+        "party",
+        "mix"
+      ],
+      "gradient": [
+        "#e67e22",
+        "#d35400"
+      ],
+      "welcome": "Naples is the most misunderstood city in Italy, and the most rewarding. It is chaotic, loud, and at times overwhelming - but it is also home to the best pizza on Earth, the most important archaeological museum in Italy, and Pompeii is practically a suburb. Neapolitans are the warmest, funniest people you will meet. Surrender to the chaos. You will leave changed.",
+      "hotels": {
+        "budget": [
+          {
+            "name": "Hostel of the Sun",
+            "desc": "Award-winning hostel near the ferry terminal. Social bar, shared lounge and daily activities.",
+            "price": "From £25/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hostelofthesunapoli.en-gb.html?aid=304433",
+            "vibe": "Award-Winning / Social",
+            "area": "Porto",
+            "proximity": "5-min walk to Piazza del Plebiscito"
+          },
+          {
+            "name": "Six Small Rooms",
+            "desc": "Cozy hostel with shared kitchen, games room and lounge. Clean rooms with AC and free WiFi.",
+            "price": "From £20/night",
+            "bookingLink": "https://www.booking.com/hotel/it/6-small-rooms-napoli.en-gb.html?aid=304433",
+            "vibe": "Cozy / Budget",
+            "area": "Centro Storico",
+            "proximity": "15-min walk to Piazza del Plebiscito"
+          },
+          {
+            "name": "Hotel Potenza",
+            "desc": "Recently refurbished 3-star near the main station. Practical with restaurant, bar and English-speaking staff.",
+            "price": "From £55/night",
+            "bookingLink": "https://www.booking.com/hotel/it/potenzanapoli.en-gb.html?aid=304433",
+            "vibe": "Practical / Transit",
+            "area": "Piazza Garibaldi",
+            "proximity": "Near Napoli Centrale, 30-min walk to centre"
+          }
+        ],
+        "mid": [
+          {
+            "name": "Hotel Piazza Bellini",
+            "desc": "Tranquil retreat with peaceful garden and library. Excellent breakfast in the ancient streets.",
+            "price": "From £80/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-piazza-bellini-apartments.en-gb.html?aid=304433",
+            "vibe": "Tranquil / Cultural",
+            "area": "Centro Storico",
+            "proximity": "15-min walk to Piazza del Plebiscito"
+          },
+          {
+            "name": "Costantinopoli 104",
+            "desc": "Elegant 4-star villa with gorgeous garden, outdoor pool and Liberty-style stained glass. Rooftop terrace.",
+            "price": "From £115/night",
+            "bookingLink": "https://www.booking.com/hotel/it/costantinopoli-104.en-gb.html?aid=304433",
+            "vibe": "Elegant / Oasis",
+            "area": "Centro Storico",
+            "proximity": "20-min walk to Piazza del Plebiscito"
+          },
+          {
+            "name": "Hotel Il Convento",
+            "desc": "Charming hotel in a converted convent near Spaccanapoli. Peaceful courtyard and rooftop terrace.",
+            "price": "From £70/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-il-convento.en-gb.html?aid=304433",
+            "vibe": "Historic / Charming",
+            "area": "Spaccanapoli",
+            "proximity": "10-min walk to Piazza del Plebiscito"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Grand Hotel Vesuvio",
+            "desc": "Historic 5-star landmark on the Santa Lucia waterfront. Gulf and Vesuvius views, rooftop gourmet dining.",
+            "price": "From £350/night",
+            "bookingLink": "https://www.booking.com/hotel/it/grand-hotel-vesuvio.en-gb.html?aid=304433",
+            "vibe": "Historic / Waterfront",
+            "area": "Santa Lucia",
+            "proximity": "8-min walk to Piazza del Plebiscito"
+          },
+          {
+            "name": "Romeo Hotel",
+            "desc": "Contemporary 5-star by Kenzo Tange with rooftop infinity pool. Michelin-starred restaurant and art collection.",
+            "price": "From £180/night",
+            "bookingLink": "https://www.booking.com/hotel/it/romeo-hotel-naples.en-gb.html?aid=304433",
+            "vibe": "Design / Rooftop",
+            "area": "Porto",
+            "proximity": "10-min walk to Piazza del Plebiscito"
+          },
+          {
+            "name": "Palazzo Caracciolo Napoli",
+            "desc": "Elegant 4-star in a 16th-century palazzo near Via Toledo. Classic meets modern with refined atmosphere.",
+            "price": "From £120/night",
+            "bookingLink": "https://www.booking.com/hotel/it/palazzo-caracciolo-napoli.en-gb.html?aid=304433",
+            "vibe": "Refined / MGallery",
+            "area": "Centro Storico",
+            "proximity": "10-min walk to Piazza del Plebiscito"
+          }
+        ]
+      },
+      "donts": [
+        "Don't call it a 'holiday' in Naples - you're visiting a living, breathing, chaotic city. Embrace it.",
+        "Don't eat pizza with a knife and fork - fold and eat with your hands like a Neapolitan",
+        "Don't wander the Spanish Quarters with valuables on display - it's busy and thieves are quick",
+        "Don't skip the archaeological museum - it's where the best Pompeii artefacts live"
+      ],
+      "transport": "Naples is walkable but hilly - wear comfortable shoes. The Metro is limited but improving. Funiculars connect the lower city to the Vomero hill - use them, they're fun. Taxis are cheap but agree on price first. The Circumvesuviana train runs to Pompeii, Herculaneum, and Sorrento.",
+      "fiestas": [
+        {
+          "season": "spring",
+          "emoji": "🎉",
+          "e": "Easter processions",
+          "m": "March/April",
+          "desc": "elaborate religious processions through the Spaccanapoli street."
+        },
+        {
+          "season": "spring",
+          "emoji": "🎉",
+          "e": "Festa di San Gennaro",
+          "m": "September 19 and first Saturday in May",
+          "desc": "the miracle of the saint's blood liquefying."
+        },
+        {
+          "season": "winter",
+          "emoji": "🎄",
+          "e": "Christmas in Naples",
+          "m": "December",
+          "desc": "the Via San Gregorio Armeno is famous for handcrafted nativity scenes."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Buongiorno",
+          "meaning": "Good morning"
+        },
+        {
+          "phrase": "Una pizza margherita, per favore",
+          "meaning": "A margherita pizza, please"
+        },
+        {
+          "phrase": "Grazie",
+          "meaning": "Thank you"
+        },
+        {
+          "phrase": "Dov'e il Museo Archeologico?",
+          "meaning": "Where is the Archaeological Museum?"
+        },
+        {
+          "phrase": "Che bomba!",
+          "meaning": "It's amazing! (local slang)"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Pompeii Archaeological Site",
+          "emoji": "🏛",
+          "desc": "A Roman city frozen in time by Vesuvius. Allow a full day."
+        },
+        {
+          "name": "National Archaeological Museum",
+          "emoji": "🏺",
+          "desc": "The world's finest collection of Roman and Greek artefacts."
+        },
+        {
+          "name": "Spaccanapoli",
+          "emoji": "🗺",
+          "desc": "The ancient street splits the old town. The heart of Naples."
+        },
+        {
+          "name": "Veiled Christ (Cappella Sansevero)",
+          "emoji": "🗿",
+          "desc": "The most breathtaking marble sculpture you will ever see."
+        },
+        {
+          "name": "Castel dell'Ovo",
+          "emoji": "🏰",
+          "desc": "Free castle on the seafront. Sunset views are incredible."
+        },
+        {
+          "name": "Pizza Pilgrimage (Da Michele/Sorbillo)",
+          "emoji": "🍕",
+          "desc": "Two legendary pizzerias. The queue is part of the experience."
+        },
+        {
+          "name": "Herculaneum",
+          "emoji": "🏚",
+          "desc": "Better preserved than Pompeii. Smaller but more intimate."
+        },
+        {
+          "name": "Via Toledo and Spanish Quarter",
+          "emoji": "🏘",
+          "desc": "The beating heart of Neapolitan daily life. Chaotic and brilliant."
+        }
+      ],
+      "day_trips": [
+        {
+          "name": "Capri Island",
+          "duration": "Full day",
+          "price": "€45pp ferry",
+          "tip": "Go early, avoid the August crowds. Blue Grotto is worth the extra fee."
+        },
+        {
+          "name": "Amalfi Coast (Positano)",
+          "duration": "Full day",
+          "price": "€20pp bus",
+          "tip": "Take the ferry from Naples - the bus journey is beautiful but nauseating"
+        },
+        {
+          "name": "Vesuvius Crater Hike",
+          "duration": "Half day",
+          "price": "€10pp",
+          "tip": "Start early before the heat. You can see Naples and the whole bay from the top"
+        },
+        {
+          "name": "Caserta Palace",
+          "duration": "Half day",
+          "price": "€15pp",
+          "tip": "The Versailles of Italy. The royal palace is extraordinary and usually quiet"
+        }
+      ],
+      "airport": {
+        "airports": [
+          {
+            "name": "Naples Capodichino",
+            "code": "NAP",
+            "buses": "Alibus shuttle €5 one-way, 15-35 min to city centre (Piazza Garibaldi/Molo Beverello), runs 05:30-midnight every 20-30 min",
+            "train": "No direct metro. Take Alibus (€5) to Napoli Centrale then Circumvesuviana for regional destinations",
+            "taxi": "Fixed fare €21-€28.50 depending on zone, 15-30 min; shared taxi option €6 pp"
+          }
+        ],
+        "tips": "Alibus €5 is best value. Taxis operate on fixed fares (confirm before boarding). Shared taxis €6/person between airport/station/port."
+      },
+      "attractionPrices": [
+        {
+          "name": "Pompeii",
+          "priceEUR": 20,
+          "notes": "€20 express, €25 plus (suburban villas). Free 1st Sun. EU 18-25 €2. Daily limit 20,000."
+        },
+        {
+          "name": "National Archaeological Museum",
+          "priceEUR": 20,
+          "notes": "Valid 2 consecutive days. Free 1st Sun, Apr 25, Jun 2, Nov 4. Closed Tuesdays."
+        },
+        {
+          "name": "Veiled Christ (Cappella Sansevero)",
+          "priceEUR": 12,
+          "notes": "€8 ages 18-26, €6 ages 10-17. Under 9 free. Audio guide €3.50. Book online."
+        },
+        {
+          "name": "Castel dell'Ovo",
+          "priceEUR": 0,
+          "notes": "Free entry. Spectacular views of Gulf of Naples and Vesuvius."
+        },
+        {
+          "name": "Catacombs of San Gennaro",
+          "priceEUR": 13,
+          "notes": "Guided tour included (hourly). €6 ages 6-17. Closed Wednesdays. Valid 12 months."
+        },
+        {
+          "name": "Spaccanapoli",
+          "priceEUR": 0,
+          "notes": "Free open-air street through historic centre. Free walking tours available."
+        }
+      ],
+      "dayTrips": [
+        {
+          "name": "Pompeii",
+          "description": "Roman city frozen in 79 AD — forum, amphitheatre, thermal baths, plaster casts.",
+          "transport": "Circumvesuviana from Napoli Garibaldi to Pompei Scavi, €3.30, 35 min. Station 50m from entrance.",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Herculaneum",
+          "description": "Smaller but better-preserved. Wooden structures, vivid mosaics, far fewer crowds.",
+          "transport": "Circumvesuviana to Ercolano Scavi, €2.80, 20 min. 5-min walk to entrance.",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Amalfi Coast",
+          "description": "Positano, Amalfi, Ravello — dramatic cliffs, pastel villages, turquoise water.",
+          "transport": "Ferry from Molo Beverello €15-€25, 1-2 hr (Apr-Oct). Or Circumvesuviana to Sorrento €4 then SITA bus.",
+          "bestFor": "Couples"
+        },
+        {
+          "name": "Capri",
+          "description": "Blue Grotto, Monte Solaro chairlift, Faraglioni, Villa Jovis.",
+          "transport": "Hydrofoil from Molo Beverello €22-€28, 50 min. 20+ daily in summer.",
+          "bestFor": "Couples"
+        },
+        {
+          "name": "Caserta Palace",
+          "description": "18th-century palace with 1,200 rooms, Versailles-style park with waterfalls.",
+          "transport": "Regional train from Napoli Centrale to Caserta, €4-€5, 40 min. Station opposite palace.",
+          "bestFor": "Family"
+        }
+      ],
+      "sarah_knows": {
+        "airport": "Naples International Airport (NAP)",
+        "to_city": "Alibus shuttle (€5, 20min to Piazza Garibaldi). Taxi (€20 fixed to historic centre, €25 to Chiaia)",
+        "best_time": "April-June or September-October. July-August is brutally hot and crowded. Naples in December has incredible nativity markets",
+        "eating": [
+          "Pizza Margherita at L'Antica Pizzeria da Michele is the one - 2 options (margherita or marinara), no menu, no debate",
+          "Sfogliatella (riccio or frolla) at any good pasticceria - the shell-shaped pastry filled with ricotta",
+          "Seafood in Naples is extraordinary - try the frittura di pesce (mixed fried seafood) at the port",
+          "Coffee at Caffe Gambrinus - historic and overpriced but a rite of passage"
+        ],
+        "safety": [
+          "Naples has a reputation but is safe for tourists who keep their wits about them",
+          "Spanish Quarter and Piazza Garibaldi are fine by day - avoid empty side streets at night",
+          "Emergency: 112 (EU-wide). Local police: 113",
+          "Don't let the chaos intimidate you - Neapolitans are incredibly protective of tourists"
+        ],
+        "local_tips": [
+          "Learn 'Pazzesco!' - it means insane/amazing and Neapolitans love hearing you try",
+          "The archaeological museum has the best collection of Pompeii artefacts - better than Pompeii itself",
+          "Cash is king in Naples - many small shops and pizzerias don't take cards",
+          "Pizza is a lunch dish in Naples, not dinner. Evening pizza is for tourists"
+        ]
+      }
+    },
+    "amalfi": {
+      "name": "Amalfi",
+      "emoji": "🌊",
+      "taglines": {
+        "beach": "dramatic cliffs, pastel villages, the most beautiful coastline in Europe",
+        "party": "sunset cocktails in Positano, dancing in Praiano, aperitivo with a view",
+        "culture": "Amalfi Cathedral, paper mills, a maritime republic's story",
+        "food": "fresh anchovies, Amalfi lemons (sfusato), limoncello on every menu",
+        "relax": "boat trips, seaside lunches, doing absolutely nothing in paradise",
+        "mix": "the Amalfi Coast is Italy's dream coastline. Yes, it's as good as the photos."
+      },
+      "vibes": [
+        "beach",
+        "food",
+        "relax",
+        "mix"
+      ],
+      "gradient": [
+        "#1abc9c",
+        "#0e6655"
+      ],
+      "welcome": "The Amalfi Coast is Italy in its most dramatic and seductive form. Vertical villages cling to cliffs above impossibly blue water. Positano cascades down to the sea. Ravello sits in the clouds. Amalfi town was once a maritime superpower. The lemons are the size of your face, the limoncello flows freely, and every meal happens with a view that stops conversation. It is expensive, crowded in summer, and absolutely worth every penny.",
+      "hotels": {
+        "budget": [
+          {
+            "name": "Bella Napoli Positano",
+            "desc": "Simple budget-friendly B&B in central Positano. Great value base for exploring the Amalfi Coast.",
+            "price": "From £70/night",
+            "bookingLink": "https://www.booking.com/hotel/it/bella-napoli-positano.en-gb.html?aid=304433",
+            "vibe": "Simple / Central",
+            "area": "Positano",
+            "proximity": "In Positano town centre"
+          },
+          {
+            "name": "Ammattaino House",
+            "desc": "Cosy self-catering accommodation with local character. Perfect for independent travellers.",
+            "price": "From £50/night",
+            "bookingLink": "https://www.booking.com/hotel/it/ammattaino-house.en-gb.html?aid=304433",
+            "vibe": "Cosy / Self-Catering",
+            "area": "Positano",
+            "proximity": "In Positano residential area"
+          },
+          {
+            "name": "La Conca Azzurra",
+            "desc": "Family-run peaceful hotel on the beach. Traditional Amalfi Coast hospitality with direct sea access.",
+            "price": "From £140/night",
+            "bookingLink": "https://www.booking.com/hotel/it/la-conca-azzurra.en-gb.html?aid=304433",
+            "vibe": "Family-Run / Beachfront",
+            "area": "Conca dei Marini",
+            "proximity": "On the beach between Amalfi and Positano"
+          }
+        ],
+        "mid": [
+          {
+            "name": "Hotel Miramalfi",
+            "desc": "Dramatic cliffside hotel with private beach and breathtaking sea views. Romantic Amalfi coastline setting.",
+            "price": "From £160/night",
+            "bookingLink": "https://www.booking.com/hotel/it/miramalfiamalfi.en-gb.html?aid=304433",
+            "vibe": "Cliffside / Romantic",
+            "area": "Amalfi",
+            "proximity": "Cliffside, 800m from Amalfi centre"
+          },
+          {
+            "name": "Covo dei Saraceni",
+            "desc": "Modern luxury seafront hotel with rooftop pool on Positano beach. Contemporary Mediterranean charm.",
+            "price": "From £200/night",
+            "bookingLink": "https://www.booking.com/hotel/it/covo-dei-saraceni-positano.en-gb.html?aid=304433",
+            "vibe": "Modern / Seafront",
+            "area": "Positano",
+            "proximity": "Seafront, on the beach in Positano centre"
+          },
+          {
+            "name": "Hotel Villa Franca",
+            "desc": "Luxury hotel with panoramic cliffside views and spa. Elegant rooms overlooking the Mediterranean.",
+            "price": "From £400/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-villa-franca.en-gb.html?aid=304433",
+            "vibe": "Luxury / Panoramic",
+            "area": "Positano",
+            "proximity": "Cliffside, 10-min walk to centre"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Le Sirenuse",
+            "desc": "Iconic hotel with mid-century elegance and Michelin-starred dining. The most famous address on the Amalfi Coast.",
+            "price": "From £500/night",
+            "bookingLink": "https://www.booking.com/hotel/it/le-sirenuse.en-gb.html?aid=304433",
+            "vibe": "Iconic / Glamorous",
+            "area": "Positano",
+            "proximity": "Cliffside overlooking Positano, 5-min walk to centre"
+          },
+          {
+            "name": "Hotel Santa Caterina",
+            "desc": "Historic elegant hotel with clifftop gardens and private beach. Timeless Amalfi Coast luxury.",
+            "price": "From £320/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-santa-caterina.en-gb.html?aid=304433",
+            "vibe": "Historic / Cliff Garden",
+            "area": "Amalfi",
+            "proximity": "Short walk to Amalfi centre"
+          },
+          {
+            "name": "Caruso Belmond",
+            "desc": "Historic 11th-century palazzo with breathtaking infinity pool suspended over the coast. The pinnacle of Ravello.",
+            "price": "From £500/night",
+            "bookingLink": "https://www.booking.com/hotel/it/belmond-hotel-caruso.en-gb.html?aid=304433",
+            "vibe": "Palatial / Infinity Pool",
+            "area": "Ravello",
+            "proximity": "Clifftop in Ravello, 30-min drive to coast"
+          }
+        ]
+      },
+      "donts": [
+        "Don't rent a car unless you're a very confident driver - the Amalfi road is terrifying",
+        "Don't visit in August - the buses are sardine tins, the prices double, the joy halves",
+        "Don't skip Ravello - it's higher, quieter, and has the most incredible views on the coast",
+        "Don't buy limoncello from a tourist shop - ask your restaurant if they make their own"
+      ],
+      "transport": "The SITA bus connects all Amalfi Coast towns from Sorrento to Salerno. Buy a 24-hour pass (€10). Ferries connect Positano, Amalfi, and Salerno - faster and more scenic than the bus. Taxis between towns are €30-50. Do not rent a car unless you enjoy terror.",
+      "fiestas": [
+        {
+          "season": "summer",
+          "emoji": "🎉",
+          "e": "Regata delle Antiche Repubbliche Marinare",
+          "m": "June",
+          "desc": "historical boat race between Amalfi, Venice, Genoa, and Pisa."
+        },
+        {
+          "season": "autumn",
+          "emoji": "🎉",
+          "e": "Festa di Sant'Andrea",
+          "m": "November 30",
+          "desc": "Amalfi's patron saint."
+        },
+        {
+          "season": "summer",
+          "emoji": "🎉",
+          "e": "Amalfi Lemon Festival",
+          "m": "summer",
+          "desc": "celebrating the famous sfusato lemon."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Buongiorno",
+          "meaning": "Good morning"
+        },
+        {
+          "phrase": "Un limoncello, per favore",
+          "meaning": "A limoncello, please"
+        },
+        {
+          "phrase": "Grazie",
+          "meaning": "Thank you"
+        },
+        {
+          "phrase": "Che spettacolo!",
+          "meaning": "What a spectacle! (you'll say this a lot)"
+        },
+        {
+          "phrase": "Dov'e la spiaggia?",
+          "meaning": "Where is the beach?"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Positano",
+          "emoji": "🏠",
+          "desc": "The most photographed town on the coast. Even better in person."
+        },
+        {
+          "name": "Amalfi Cathedral (Duomo)",
+          "emoji": "⛪",
+          "desc": "Arab-Norman architecture. The cloister is stunning."
+        },
+        {
+          "name": "Ravello and Villa Rufolo",
+          "emoji": "🌺",
+          "desc": "Gardens that inspired Wagner. Concert stage over the sea."
+        },
+        {
+          "name": "Path of the Gods (Sentiero degli Dei)",
+          "emoji": "🥾",
+          "desc": "Hike between Positano and Praiano. The best coastal walk in Europe."
+        },
+        {
+          "name": "Emerald Grotto",
+          "emoji": "🟢",
+          "desc": "Sea cave with an underwater nativity scene. Eerie and beautiful."
+        },
+        {
+          "name": "Amalfi Lemon Grove Tour",
+          "emoji": "🍋",
+          "desc": "See where the legendary sfusato lemons grow."
+        },
+        {
+          "name": "Fiordo di Furore",
+          "emoji": "🏞",
+          "desc": "A fiord carved into the coast. Tiny beach between cliffs."
+        },
+        {
+          "name": "Villa Cimbrone (Ravello)",
+          "emoji": "🏛",
+          "desc": "The Terrace of Infinity. The most romantic viewpoint in Italy."
+        }
+      ],
+      "day_trips": [
+        {
+          "name": "Capri",
+          "duration": "Full day",
+          "price": "€30pp ferry from Amalfi/Sorrento",
+          "tip": "Go early, skip the Blue Grotto queue, take the chairlift to Monte Solaro"
+        },
+        {
+          "name": "Pompeii",
+          "duration": "Half day",
+          "price": "€25pp",
+          "tip": "Combined Amalfi + Pompeii train via Sorrento - doable in one day"
+        },
+        {
+          "name": "Salerno",
+          "duration": "Half day",
+          "price": "€12pp ferry",
+          "tip": "Underrated city with a beautiful medieval quarter. Ferry from Amalfi is 30min"
+        }
+      ],
+      "airport": {
+        "airports": [
+          {
+            "name": "Naples Capodichino",
+            "code": "NAP",
+            "buses": "Alibus €5 (20 min) + Circumvesuviana €4.60 to Sorrento (70 min) + SITA bus €2.40 to Positano (50-60 min). Total ~€12, 3-4.5h. Pintour direct airport→Amalfi €20, 2h10.",
+            "train": "Alibus €5 (20 min) + Circumvesuviana Napoli→Sorrento €4.60 (70 min) + SITA bus to Positano/Amalfi. Total ~€12-15, 3-4.5h.",
+            "ferry": "Alibus €5 + metro/taxi to Molo Beverello + ferry to Positano/Amalfi €20-25 (1.5h). Total ~€27-32, 2.5-3.5h. Seasonal Apr-Oct.",
+            "taxi": "Official taxi to Positano €150-170, to Amalfi €170-190. 1.5-2h. Pre-booked private transfer from €130."
+          },
+          {
+            "name": "Salerno Costa d'Amalfi",
+            "code": "QSR",
+            "buses": "Airlink bus €6 to Salerno station (40 min) then SITA bus along coast. Total ~€9-11, 1.5-2.5h.",
+            "train": "Free shuttle to Pontecagnano station + train to Salerno ~€2 (10 min). Then bus/ferry to coast.",
+            "ferry": "Taxi/transfer to Salerno port (€35-70, 20 min) + ferry to Amalfi €9 (35 min) or Positano ~€12 (50 min). Seasonal Apr-Oct.",
+            "taxi": "Official taxi: Amalfi €110-160, Positano €140-190. Pre-booked: Amalfi €110-170, Positano €130-180."
+          }
+        ],
+        "tips": "NAP has far more flight options year-round. QSR is closer (45 km vs 75 km) but limited seasonal routes. Book transfers in advance Jul-Aug. Cheapest NAP→Positano: Circumvesuviana+SITA bus ~€12."
+      },
+      "attractionPrices": [
+        {
+          "name": "Amalfi Cathedral",
+          "priceEUR": 4,
+          "notes": "Church free. Monumental complex (Cloister, Crypt, Basilica) €3-5. Free 1st Sun. No booking needed."
+        },
+        {
+          "name": "Villa Rufolo",
+          "priceEUR": 8,
+          "notes": "Ravello gardens. €8 adult, €6 reduced (65+/children 5-12). On-site only."
+        },
+        {
+          "name": "Villa Cimbrone",
+          "priceEUR": 10,
+          "notes": "Ravello gardens + Terrazza dell'Infinito. Discount for children under 12. No reservation needed."
+        },
+        {
+          "name": "Path of the Gods",
+          "priceEUR": 0,
+          "notes": "Free. Bomerano→Nocelle→Positano, ~7.8km, 3-4h. Best Apr-Jun, Sep-Oct."
+        },
+        {
+          "name": "Emerald Grotto",
+          "priceEUR": 8,
+          "notes": "Includes guided boat ride inside. Open daily 9:00-16:00. Visit ~15-20 min."
+        },
+        {
+          "name": "Amalfi Paper Museum",
+          "priceEUR": 5,
+          "notes": "Self-guided €4.50, guided €7. Housed in medieval paper mill. ~45 min tour."
+        },
+        {
+          "name": "Spiaggia Grande",
+          "priceEUR": 0,
+          "notes": "Public beach free. Sunbed rental €20-50/day. Fornillo Beach quieter alternative."
+        }
+      ],
+      "dayTrips": [
+        {
+          "name": "Capri",
+          "description": "Blue Grotto, Monte Solaro chairlift, Faraglioni, Gardens of Augustus.",
+          "transport": "Ferry from Positano €23 (30 min) or Amalfi €25 (60 min). Services Apr-Oct.",
+          "bestFor": "Couples"
+        },
+        {
+          "name": "Pompeii",
+          "description": "Roman city frozen in 79 AD — preserved streets, frescoes, casts.",
+          "transport": "Circumvesuviana from Sorrento €3.30 (35 min). Entry €20.",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Naples",
+          "description": "Archaeology museum, Spaccanapoli, pizza birthplace, Castel dell'Ovo.",
+          "transport": "Train from Salerno €5 (40-60 min) or Sorrento €4.60 (70 min). Ferry from Sorrento €15 (40 min).",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Ravello",
+          "description": "Villa Rufolo, Villa Cimbrone Terrace of Infinity, Ravello Festival concerts.",
+          "transport": "SITA bus from Amalfi €1.50 (25 min, every 30 min). No ferry access.",
+          "bestFor": "Couples"
+        },
+        {
+          "name": "Sorrento",
+          "description": "Limoncello tastings, cliffside views, Bay of Naples panorama.",
+          "transport": "Ferry from Positano €16 (25-55 min). SITA bus from Positano €2.40 (50 min).",
+          "bestFor": "Family"
+        }
+      ],
+      "sarah_knows": {
+        "airport": "Naples International Airport (NAP)",
+        "to_city": "Curreri bus from Naples airport to Sorrento (€10, 70min) then SITA bus along the coast. Car service (€100+, 90min). Ferry from Naples to Positano/Amalfi (€25, 80min) - seasonal",
+        "best_time": "May-June or September. July-August is a festival of crowds. October can be wet but is peaceful",
+        "eating": [
+          "Limoncello was invented on Amalfi - it's a digestif, not a cocktail. Drink it after dinner, ice cold",
+          "Scialatielli ai frutti di mare is the local pasta - thick ribbons with seafood",
+          "Delizia al limone is a lemon dessert from Amalfi - light, sweet, perfect",
+          "Positano restaurant prices are 30% higher than Amalfi town for the same quality"
+        ],
+        "safety": [
+          "The bus is safe but pickpocketing happens on crowded summer buses",
+          "Steps everywhere - good shoes are non-negotiable",
+          "Emergency: 112 (EU-wide). Coast Guard for boat emergencies: 1530"
+        ],
+        "local_tips": [
+          "Book restaurants in Positano weeks ahead in summer - the good ones fill up instantly",
+          "The Path of the Gods is free and the most beautiful thing you can do here",
+          "Take the ferry between towns, not the bus - it's faster, cooler, and the views are better",
+          "Buy limoncello from a family producer, not a souvenir shop - ask at your hotel"
+        ]
+      }
+    },
+    "cinque_terre": {
+      "name": "Cinque Terre",
+      "emoji": "🏡",
+      "taglines": {
+        "beach": "tiny rocky coves, turquoise water, cliffside villages",
+        "party": "sunset spritz in Monterosso, quiet evening walks through vineyards",
+        "culture": "UNESCO villages, dry-stone terraces, a thousand years of history",
+        "food": "fresh pesto, anchovies from Monterosso, sciacchetra dessert wine",
+        "relax": "this is what doing nothing in Italy looks like. Perfect.",
+        "mix": "Cinque Terre is five villages in a row, each more beautiful than the last"
+      },
+      "vibes": [
+        "beach",
+        "food",
+        "relax",
+        "mix"
+      ],
+      "gradient": [
+        "#48c9b0",
+        "#1a6e5c"
+      ],
+      "welcome": "Cinque Terre is five impossibly colourful fishing villages clinging to the Ligurian coast. Monterosso, Vernazza, Corniglia, Manarola, Riomaggiore - each one postcard-perfect. Linked by walking trails, a train line, and ferries, they are a place where the simple pleasures reign: swimming in turquoise coves, eating pesto in a harbourfront trattoria, and watching the sunset paint the pastel houses gold.",
+      "hotels": {
+        "budget": [
+          {
+            "name": "Cinque Terre Rooms",
+            "desc": "Simple elegant rooms in the heart of La Spezia. Comfortable base for exploring Cinque Terre via train.",
+            "price": "From £68/night",
+            "bookingLink": "https://www.booking.com/hotel/it/cinque-terre-charme-rooms.en-gb.html?aid=304433",
+            "vibe": "Simple / Central La Spezia",
+            "area": "La Spezia",
+            "proximity": "5-min walk to station, 15-min to ferry"
+          },
+          {
+            "name": "La Giovanna Ostello",
+            "desc": "Budget holiday home in Corniglia with terrace overlooking the village. Simple authentic accommodation.",
+            "price": "From £25/night",
+            "bookingLink": "https://www.booking.com/hotel/it/casa-vacanze-giovanna.en-gb.html?aid=304433",
+            "vibe": "Budget / Village",
+            "area": "Corniglia",
+            "proximity": "5-min walk to Corniglia centre"
+          },
+          {
+            "name": "Hotel Marina",
+            "desc": "Informal family-run hillside hotel with garden, hot tub with sea views and loaner kayaks.",
+            "price": "From £85/night",
+            "bookingLink": "https://www.booking.com/hotel/it/marina-monterosso-al-mare.en-gb.html?aid=304433",
+            "vibe": "Family-Run / Relaxed",
+            "area": "Monterosso",
+            "proximity": "3-min walk to beach, 8-min to station"
+          }
+        ],
+        "mid": [
+          {
+            "name": "Hotel Porto Roca",
+            "desc": "Upscale 4-star cliff-top hotel with panoramic sea views and saltwater infinity pool. The most prestigious in Monterosso.",
+            "price": "From £170/night",
+            "bookingLink": "https://www.booking.com/hotel/it/porto-roca.en-gb.html?aid=304433",
+            "vibe": "Cliff-Top / Infinity Pool",
+            "area": "Monterosso",
+            "proximity": "5-min walk to town, cliffside above sea"
+          },
+          {
+            "name": "La Locanda di Anaita",
+            "desc": "Small family-run guesthouse with private bathrooms and sea views. Simple, clean and well-priced.",
+            "price": "From £60/night",
+            "bookingLink": "https://www.booking.com/hotel/it/affittacamere-anita.en-gb.html?aid=304433",
+            "vibe": "Family / Guesthouse",
+            "area": "Monterosso",
+            "proximity": "5-min walk to station, 3-min to beach"
+          },
+          {
+            "name": "Villa Steno",
+            "desc": "Charming 16-room boutique villa surrounded by lemon and olive trees. Warm personal service and panoramic terrace.",
+            "price": "From £130/night",
+            "bookingLink": "https://www.booking.com/hotel/it/villa-steno.en-gb.html?aid=304433",
+            "vibe": "Boutique / Lemon Garden",
+            "area": "Monterosso",
+            "proximity": "5-min walk to town, 300m from sea"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Grand Hotel Porto",
+            "desc": "Only 5-star in the area, in a 17th-century former convent. Stunning harbour views, elegant and historic.",
+            "price": "From £294/night",
+            "bookingLink": "https://www.booking.com/hotel/it/grand-hotel-portovenere.en-gb.html?aid=304433",
+            "vibe": "Luxury / Harbour",
+            "area": "Portovenere",
+            "proximity": "Steps from ferry dock to Cinque Terre"
+          },
+          {
+            "name": "NH Collection Portofino",
+            "desc": "Renzo Piano-designed hotel on stilts over Genoa Old Port. Panoramic harbour views. Note: in Genoa, not Portofino.",
+            "price": "From £97/night",
+            "bookingLink": "https://www.booking.com/hotel/it/nh-collection-genova-marina.en-gb.html?aid=304433",
+            "vibe": "Modern / Harbour",
+            "area": "Genoa",
+            "proximity": "Genoa old port, 1.5hrs from Cinque Terre"
+          },
+          {
+            "name": "Hotel Margherita",
+            "desc": "Modern 3-star on Monterosso main street with bright rooms and peaceful patio. Steps from shops and beaches.",
+            "price": "From £160/night",
+            "bookingLink": "https://www.booking.com/hotel/it/margherita-monterosso.en-gb.html?aid=304433",
+            "vibe": "Modern / Central",
+            "area": "Monterosso",
+            "proximity": "11-min walk to station, 2-min to beach"
+          }
+        ]
+      },
+      "donts": [
+        "Don't drive - the villages are car-free (mostly). Park in La Spezia and take the train",
+        "Don't hike between all five villages in one day - you'll be exhausted and miss everything",
+        "Don't expect proper sandy beaches - it's rocks and pebbles, except Monterosso",
+        "Don't skip Corniglia because it's 'hard to reach' - the 377 steps are worth it"
+      ],
+      "transport": "The Cinque Terre Express train runs between the five villages (La Spezia to Levanto). Buy a Cinque Terre Card (€18/day) for unlimited trains and hiking trail access. Ferries connect the villages from April-October. The hiking trails are the best way to experience the area.",
+      "fiestas": [
+        {
+          "season": "spring",
+          "emoji": "🍋",
+          "e": "Lemon Festival",
+          "m": "May",
+          "desc": "Monterosso celebrates the local lemons with food stalls and parades."
+        },
+        {
+          "season": "summer",
+          "emoji": "🎉",
+          "e": "Feast of San Giovanni Battista",
+          "m": "June 24",
+          "desc": "patron saint of Riomaggiore with fireworks."
+        },
+        {
+          "season": "winter",
+          "emoji": "🎄",
+          "e": "Christmas lights",
+          "m": "December",
+          "desc": "the nativity scenes in Manarola are world-famous, painted on the hillside in lights."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Buongiorno",
+          "meaning": "Good morning"
+        },
+        {
+          "phrase": "Un pesto, per favore",
+          "meaning": "A pesto dish, please"
+        },
+        {
+          "phrase": "Grazie mille",
+          "meaning": "Thank you very much"
+        },
+        {
+          "phrase": "Dov'e la stazione?",
+          "meaning": "Where is the train station?"
+        },
+        {
+          "phrase": "Che bello!",
+          "meaning": "How beautiful!"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Vernazza",
+          "emoji": "🏘",
+          "desc": "The most beautiful of the five villages. Harbour square is stunning."
+        },
+        {
+          "name": "Monterosso al Mare",
+          "emoji": "🏖",
+          "desc": "The only village with a proper sandy beach."
+        },
+        {
+          "name": "Manarola at Sunset",
+          "emoji": "🌅",
+          "desc": "The classic view you've seen in photos. Even better in real life."
+        },
+        {
+          "name": "Sentiero Azzurro (Blue Trail)",
+          "emoji": "🥾",
+          "desc": "The coastal trail between villages. Most scenic walk in Italy."
+        },
+        {
+          "name": "Corniglia",
+          "emoji": "🏠",
+          "desc": "High on a cliff. 377 steps up but worth every one for the views."
+        },
+        {
+          "name": "Riomaggiore",
+          "emoji": "🏡",
+          "desc": "Colourful houses tumbling to the sea. Best for sunset."
+        },
+        {
+          "name": "Via dell'Amore",
+          "emoji": "💕",
+          "desc": "The 'Lover's Lane' walk between Riomaggiore and Manarola."
+        },
+        {
+          "name": "Pesto Making Class",
+          "emoji": "🍃",
+          "desc": "Learn to make authentic pesto with local basil."
+        }
+      ],
+      "day_trips": [
+        {
+          "name": "Portovenere",
+          "duration": "Half day",
+          "price": "€15pp ferry",
+          "tip": "Beautiful harbour town south of Cinque Terre. Less crowded, just as beautiful"
+        },
+        {
+          "name": "Portofino",
+          "duration": "Full day",
+          "price": "€30pp train+ferry",
+          "tip": "The most glamorous fishing village in Italy. Pricey but stunning"
+        },
+        {
+          "name": "La Spezia",
+          "duration": "Half day",
+          "price": "€5pp train",
+          "tip": "Gateway city with a surprisingly good naval museum and great food market"
+        }
+      ],
+      "airport": {
+        "airports": [
+          {
+            "name": "Genoa Cristoforo Colombo",
+            "code": "GOA",
+            "buses": "Airlink bus €2 (5 min) to Sestri Ponente station then train (~2h, €10-20). Or Volabus €10 (30 min) to Genoa stations then train (1.25-1.75h, €8-12).",
+            "train": "Airlink bus €2 (5 min) to Sestri Ponente station, then regional train to Monterosso/La Spezia (1.25-2h, €8-15). Total ~1.5-2.5h, €10-17.",
+            "taxi": "Direct transfer ~1.5h (105 km). €160-200 taxi."
+          },
+          {
+            "name": "Pisa Galileo Galilei",
+            "code": "PSA",
+            "buses": "PisaMover €5.90-6.50 (5 min) to Pisa Centrale + train to La Spezia (1-1.5h, €8-12) + CT Express to villages (5-15 min, €4-5).",
+            "train": "PisaMover €5.90-6.50 to Pisa Centrale + regional train to La Spezia (1-1.5h, €8-12). CT Express to villages. Total ~1.5-2h, €15-25.",
+            "taxi": "Direct ~1.5h (84 km). €150-200."
+          }
+        ],
+        "tips": "Pisa is closer (84 km vs 112 km) and generally cheaper/easier by train. Both require CT Express from La Spezia (€4-5 per ride)."
+      },
+      "attractionPrices": [
+        {
+          "name": "Cinque Terre Treno MS Card (1 day)",
+          "priceEUR": 22,
+          "notes": "Low season Band A. Unlimited trains La Spezia-Levanto, Via dell'Amore, Blue Trail hiking, park toilets, Wi-Fi. Mid €29.50, High €35. Trekking Card from €7.50."
+        },
+        {
+          "name": "Monterosso Castle",
+          "priceEUR": 0,
+          "notes": "Free entry. Castle ruins above old town. Open-air site."
+        },
+        {
+          "name": "Riomaggiore Castle",
+          "priceEUR": 2,
+          "notes": "€2 basic. €4 with VR. €5 with Via dell'Amore guided tour. Free with CT Card."
+        },
+        {
+          "name": "Vernazza Castle (Castello Doria)",
+          "priceEUR": 2,
+          "notes": "€1.50-2. Cash only. Includes Belforte Tower climb with panoramic harbour views."
+        },
+        {
+          "name": "Corniglia Hiking Trails",
+          "priceEUR": 0,
+          "notes": "Free for Alta Via, ridge paths. Sentiero Azzurro requires CT Card."
+        },
+        {
+          "name": "Church of San Francesco",
+          "priceEUR": 0,
+          "notes": "Free. 17th-century church in Monterosso."
+        },
+        {
+          "name": "Beaches (Monterosso)",
+          "priceEUR": 0,
+          "notes": "Free public access. Sunbed + umbrella €15-25/day."
+        }
+      ],
+      "dayTrips": [
+        {
+          "name": "Portofino",
+          "description": "Pastel fishing village, Piazzetta harbour, designer boutiques, Castello Brown.",
+          "transport": "Train to Santa Margherita Ligure (1-1.5h, €5-7), then bus #782 (20 min, €3) or seasonal ferry (15 min, €8-10)",
+          "bestFor": "Couples, culture"
+        },
+        {
+          "name": "Genoa",
+          "description": "Largest medieval old town in Italy, Europe's biggest aquarium, Rolli Palaces (UNESCO).",
+          "transport": "Direct regional train from Monterosso/Vernazza to Genoa Piazza Principe (1.25-1.75h, €8-12). Hourly.",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Lerici and Tellaro",
+          "description": "Gulf of Poets towns — medieval castles, colourful houses, Byron's Cave.",
+          "transport": "Train to La Spezia (10 min, €4), then ATC bus L/S (30 min, €2.50) to Lerici",
+          "bestFor": "Couples, family"
+        },
+        {
+          "name": "Pisa",
+          "description": "Leaning Tower, Piazza dei Miracoli (UNESCO), Baptistery, Cathedral.",
+          "transport": "Train from La Spezia to Pisa Centrale (1-1.5h, €8-12). Frequent regionals.",
+          "bestFor": "Culture, family"
+        },
+        {
+          "name": "Lucca",
+          "description": "Walled Renaissance city, bike-friendly ramparts, Roman amphitheatre, Guinigi Tower.",
+          "transport": "Train from La Spezia to Lucca via Viareggio/Pisa (1.25-1.75h, €8-12)",
+          "bestFor": "Culture, family"
+        }
+      ],
+      "sarah_knows": {
+        "airport": "Genoa Cristoforo Colombo Airport (GOA) or Pisa Airport (PSA)",
+        "to_city": "Train from Genoa to Monterosso (€12, 1.5hr). Train from Pisa to La Spezia (€10, 1hr). Shuttle from La Spezia station to the villages",
+        "best_time": "May-June or September. July-August is uncomfortably crowded. Weekdays are dramatically quieter than weekends",
+        "eating": [
+          "Pesto alla Genovese was born in this region - the basil, pine nuts, and parmesan here are the real deal",
+          "Anchovies from Monterosso are famous - eat them marinated, not just on pizza",
+          "Sciacchetra is a local dessert wine - sweet, golden, served with cantucci biscuits",
+          "Focaccia in Cinque Terre is softer and oilier than the Genovese version"
+        ],
+        "safety": [
+          "The hiking trails have steep drops - keep to the path, wear proper shoes, carry water",
+          "Pickpockets on the Cinque Terre Express train - bag in front always",
+          "Emergency: 112 (EU-wide). Hiking trail emergency: 118"
+        ],
+        "local_tips": [
+          "Buy the Cinque Terre Card for unlimited train travel and trail access - it pays for itself in 2 trips",
+          "Book accommodation a season ahead - Cinque Terre has more visitors than beds",
+          "The train between villages takes 3-5 minutes. Don't hike everything - pick one or two trail sections",
+          "Go swimming at sunrise - the water is calm, the villages are quiet, the light is magic"
+        ]
+      }
+    },
+    "bologna": {
+      "name": "Bologna",
+      "emoji": "🍝",
+      "taglines": {
+        "beach": "landlocked - but the Adriatic coast is an hour by train",
+        "party": "university city = endless student bars, cheap drinks, late nights",
+        "culture": "the oldest university in Europe, medieval towers, porticoed streets",
+        "food": "Bologna is the food capital of Italy. Tagliatelle, mortadella, tortellini. Non-negotiable.",
+        "relax": "Piazza Maggiore at dusk, arcaded walks, aperitivo on Via del Pratello",
+        "mix": "Bologna is the city that knows what 'la dolce vita' actually means"
+      },
+      "vibes": [
+        "food",
+        "culture",
+        "relax",
+        "mix"
+      ],
+      "gradient": [
+        "#c0392b",
+        "#641e16"
+      ],
+      "welcome": "Bologna is Italy's best-kept secret. It has the oldest university in the Western world, a medieval centre that rivals any city in Europe, and the best food in a country that prides itself on food. Tagliatelle al ragu was invented here. So was tortellini. So was mortadella. The city is compact, walkable, and its porticoed streets shelter you from rain and sun alike. Bolognesi know they live somewhere special, and they're right.",
+      "hotels": {
+        "budget": [
+          {
+            "name": "We_Bologna Hostel",
+            "desc": "Modern hostel (also known as Combo Bologna) in a former church. Bar, restaurant, coworking space and courtyard. Popular mix of travellers and locals.",
+            "price": "From £25/night",
+            "bookingLink": "https://www.booking.com/hotel/it/we-bologna.en-gb.html?aid=304433",
+            "vibe": "Modern / Social Hostel",
+            "area": "Centro Storico",
+            "proximity": "10-min walk to Piazza Maggiore"
+          },
+          {
+            "name": "Hotel Commercio",
+            "desc": "Simple budget hotel in central Bologna. Basic rooms with essential amenities for exploring the city on foot.",
+            "price": "From £45/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-commercio.en-gb.html?aid=304433",
+            "vibe": "Budget / Central",
+            "area": "Centro Storico",
+            "proximity": "5-min walk to Piazza Maggiore"
+          },
+          {
+            "name": "Panorama",
+            "desc": "Budget hotel with a rooftop terrace offering panoramic Bologna views. Simple clean rooms in a central location.",
+            "price": "From £50/night",
+            "bookingLink": "https://www.booking.com/hotel/it/albergo-panorama-bologna.en-gb.html?aid=304433",
+            "vibe": "Budget / Rooftop",
+            "area": "Centro Storico",
+            "proximity": "10-min walk to Piazza Maggiore"
+          }
+        ],
+        "mid": [
+          {
+            "name": "Hotel Cavour",
+            "desc": "Well-located 3-star near the Two Towers. Comfortable rooms and a good breakfast buffet.",
+            "price": "From £80/night",
+            "bookingLink": "https://www.booking.com/hotel/it/cavour-bologna.en-gb.html?aid=304433",
+            "vibe": "Mid-Range / Central",
+            "area": "Centro Storico",
+            "proximity": "5-min walk to Piazza Maggiore"
+          },
+          {
+            "name": "Art Hotel Commercianti",
+            "desc": "Boutique hotel in a historic building opposite Basilica San Petronio. Medieval charm with modern comfort on Bologna main square.",
+            "price": "From £100/night",
+            "bookingLink": "https://www.booking.com/hotel/it/commercianti.en-gb.html?aid=304433",
+            "vibe": "Boutique / Historic",
+            "area": "Centro Storico",
+            "proximity": "2-min walk to Piazza Maggiore"
+          },
+          {
+            "name": "Hotel Corona d'Oro",
+            "desc": "Elegant 4-star on Via Oberdan in the heart of Bologna. Historic building with classic Italian style and excellent service.",
+            "price": "From £110/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-corona-d-oro.en-gb.html?aid=304433",
+            "vibe": "Historic / Elegant",
+            "area": "Centro Storico",
+            "proximity": "3-min walk to Piazza Maggiore"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Grand Hotel Majestic Gia Baglioni",
+            "desc": "Bologna grandest hotel, a historic 5-star on Via Indipendenza. Opulent interiors, renowned restaurant and impeccable service.",
+            "price": "From £180/night",
+            "bookingLink": "https://www.booking.com/hotel/it/grandhotelbaglioni.en-gb.html?aid=304433",
+            "vibe": "Grand / Historic Luxury",
+            "area": "Centro Storico",
+            "proximity": "3-min walk to Piazza Maggiore"
+          },
+          {
+            "name": "Bologna Art Hotel Fiera",
+            "desc": "Modern hotel near Bologna Fiere exhibition centre. Clean comfortable rooms, ideal for business or convention visitors.",
+            "price": "From £70/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-bologna-fiera.en-gb.html?aid=304433",
+            "vibe": "Modern / Fiera",
+            "area": "Fiera District",
+            "proximity": "Near exhibition centre, 20-min bus to centre"
+          },
+          {
+            "name": "Hotel Metropolitan",
+            "desc": "Traditional 4-star in central Bologna with elegant rooms and a rooftop terrace. Reliable choice for city breaks.",
+            "price": "From £90/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-metropolitan.en-gb.html?aid=304433",
+            "vibe": "Classic / Central",
+            "area": "Centro Storico",
+            "proximity": "5-min walk to Piazza Maggiore"
+          }
+        ]
+      },
+      "donts": [
+        "Don't call it spaghetti bolognese - the dish doesn't exist here. It's tagliatelle al ragu.",
+        "Don't skip the Quadrilatero market - it's where Bolognesi have shopped for food for 800 years",
+        "Don't underestimate the porticoes - they're UNESCO-listed and the longest covered walkways in the world",
+        "Don't visit on a Monday - many museums and restaurants are closed"
+      ],
+      "transport": "Bologna is compact and extremely walkable - the historic centre is one of the largest in Europe but easy to navigate. There is no Metro but buses are good. The train station (Bologna Centrale) is the main north-south hub in Italy. Taxis are affordable.",
+      "fiestas": [
+        {
+          "season": "autumn",
+          "emoji": "🎉",
+          "e": "Festa di San Petronio",
+          "m": "October 4",
+          "desc": "the city's patron saint celebration."
+        },
+        {
+          "season": "autumn",
+          "emoji": "🎉",
+          "e": "Mortadella Bo",
+          "m": "October",
+          "desc": "a festival celebrating Bologna's famous sausage."
+        },
+        {
+          "season": "autumn",
+          "emoji": "🎉",
+          "e": "Artelibro",
+          "m": "September",
+          "desc": "literature festival in beautiful palazzos."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Buongiorno",
+          "meaning": "Good morning"
+        },
+        {
+          "phrase": "Un ragu, per favore",
+          "meaning": "A ragu sauce dish, please (never 'bolognese')"
+        },
+        {
+          "phrase": "Grazie",
+          "meaning": "Thank you"
+        },
+        {
+          "phrase": "Dov'e Piazza Maggiore?",
+          "meaning": "Where is the main square?"
+        },
+        {
+          "phrase": "Che buono!",
+          "meaning": "How delicious!"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Piazza Maggiore and Basilica of San Petronio",
+          "emoji": "⛪",
+          "desc": "The heart of the city. The unfinished facade tells a story of ambition."
+        },
+        {
+          "name": "Two Towers (Asinelli and Garisenda)",
+          "emoji": "🗼",
+          "desc": "Climb the Asinelli Tower (498 steps) for panoramic views of the city."
+        },
+        {
+          "name": "Quadrilatero Market",
+          "emoji": "🥩",
+          "desc": "The ancient food market. Mortadella, parmesan, tortellini - heaven."
+        },
+        {
+          "name": "Archiginnasio",
+          "emoji": "📚",
+          "desc": "The old university building. The botanical theatre is extraordinary."
+        },
+        {
+          "name": "Santo Stefano Basilica",
+          "emoji": "⛪",
+          "desc": "Seven churches in one. The most atmospheric religious complex in Bologna."
+        },
+        {
+          "name": "Portico Walking Tour",
+          "emoji": "🏛",
+          "desc": "Walk the 4km portico to San Luca. The longest covered walkway in the world."
+        },
+        {
+          "name": "Mercato di Mezzo",
+          "emoji": "🍘",
+          "desc": "Modern food hall in a medieval building. Excellent for lunch."
+        },
+        {
+          "name": "Pinacoteca Nazionale",
+          "emoji": "🖼",
+          "desc": "Raphael, Titian, and the Bolognese masters. Underrated museum."
+        }
+      ],
+      "day_trips": [
+        {
+          "name": "Modena",
+          "duration": "Half day",
+          "price": "€7pp train",
+          "tip": "Home of Ferrari, balsamic vinegar, and Osteria Francescana (seat 50 - good luck)"
+        },
+        {
+          "name": "Parma",
+          "duration": "Full day",
+          "price": "€10pp train",
+          "tip": "Parmigiano, prosciutto, and the most beautiful medieval square in Italy"
+        },
+        {
+          "name": "Ravenna",
+          "duration": "Full day",
+          "price": "€15pp train",
+          "tip": "Byzantine mosaics that are among the most important in the world"
+        },
+        {
+          "name": "Ferrara",
+          "duration": "Half day",
+          "price": "€8pp train",
+          "tip": "Renaissance city with a moated castle. Cycling capital of Italy"
+        }
+      ],
+      "airport": {
+        "airports": [
+          {
+            "name": "Bologna Guglielmo Marconi",
+            "code": "BLQ",
+            "buses": "Bus 944 €4, 20-25 min; Marconi Express 949 €9.80, 25-30 min to Piazza Malpighi",
+            "train": "Marconi Express monorail €12.80 one-way (€23.30 return), 7 min to Bologna Centrale, runs 5:40am-midnight every 7 min peak",
+            "taxi": "€20-30, 15-25 min to city centre"
+          }
+        ],
+        "tips": "Cheapest is Bus 944 (€4). Marconi Express fastest (7 min). Contactless Pay&Go at train gates. After midnight, Line Q runs."
+      },
+      "attractionPrices": [
+        {
+          "name": "Two Towers (Asinelli climb)",
+          "priceEUR": 5,
+          "notes": "498 steps, no elevator. Book online. Garisenda not climbable."
+        },
+        {
+          "name": "Piazza Maggiore",
+          "priceEUR": 0,
+          "notes": "Free, always open. Main square."
+        },
+        {
+          "name": "Basilica of San Petronio",
+          "priceEUR": 0,
+          "notes": "Free entry. Chapels €5 adults. Dress code: cover shoulders/knees."
+        },
+        {
+          "name": "Archiginnasio (Anatomical Theatre)",
+          "priceEUR": 3,
+          "notes": "€3 basic. Guided €12, audio €10. Free under 12. Closed Sunday."
+        },
+        {
+          "name": "Fountain of Neptune",
+          "priceEUR": 0,
+          "notes": "Free outdoor fountain by Piazza Maggiore."
+        },
+        {
+          "name": "Santo Stefano Complex (Seven Churches)",
+          "priceEUR": 0,
+          "notes": "Free entry, donations welcome. Small museum €3-5. Closed Mondays."
+        },
+        {
+          "name": "Bologna Cathedral (Duomo di San Pietro)",
+          "priceEUR": 0,
+          "notes": "Free entry. Baroque interior."
+        }
+      ],
+      "dayTrips": [
+        {
+          "name": "Modena",
+          "description": "Romanesque Cathedral (UNESCO), Ferrari/Maserati/Lamborghini, balsamic vinegar.",
+          "transport": "Train from Bologna Centrale 20-35 min, €3.85-€16, every ~20-30 min",
+          "bestFor": "Culture, food"
+        },
+        {
+          "name": "Parma",
+          "description": "Parmesan cheese, Prosciutto di Parma, Correggio frescoes, Teatro Farnese.",
+          "transport": "Train ~50-70 min, €7.35-€21.50. Frequent departures.",
+          "bestFor": "Food, culture"
+        },
+        {
+          "name": "Ravenna",
+          "description": "Byzantine mosaics — Basilica di San Vitale, Galla Placidia, Sant'Apollinare Nuovo.",
+          "transport": "Train ~1h direct, €9-€12. 19-26 direct trains daily.",
+          "bestFor": "Culture, art"
+        },
+        {
+          "name": "Ferrara",
+          "description": "Estense Castle, Palazzo dei Diamanti, bike-friendly, cappellacci di zucca.",
+          "transport": "Train 30-50 min, €4.75-€10, every ~30 min",
+          "bestFor": "Culture, family"
+        },
+        {
+          "name": "San Marino",
+          "description": "Oldest republic, three medieval fortresses on Mount Titano, duty-free shopping.",
+          "transport": "Train Bologna→Rimini (~1h, €10-15) + Bonelli Bus to San Marino (€6, 45 min)",
+          "bestFor": "Culture, history"
+        }
+      ],
+      "sarah_knows": {
+        "airport": "Bologna Guglielmo Marconi Airport (BLQ)",
+        "to_city": "Marconi Express monorail to Bologna Centrale (€11, 7min). BLQ bus (€6, 20min). Taxi (€20 fixed, 20min)",
+        "best_time": "April-June or September-October. Summer can be very hot and humid. Autumn is truffle season",
+        "eating": [
+          "Tagliatelle al ragu is NOT spaghetti bolognese - it's fresh egg pasta with meat ragu. There is no spaghetti version.",
+          "Tortellini in brodo (in broth) is the classic Bolognese dish - especially in winter",
+          "Mortadella is NOT bologna (the American version). Try the real thing at the market",
+          "Parmigiano Reggiano, Prosciutto di Parma, and Aceto Balsamico Tradizionale all come from nearby"
+        ],
+        "safety": [
+          "Bologna is very safe. Watch belongings in the market area and on crowded buses",
+          "The university district (around Via Zamboni) is lively at night - fine but busy",
+          "Emergency: 112 (EU-wide)"
+        ],
+        "local_tips": [
+          "The secret to Bolognese food: quality ingredients, not complex recipes. The same philosophy applies to everything here",
+          "Climb the Asinelli Tower early - the queue builds fast. 498 steps but worth it",
+          "Thursday night is student night - Bologna comes alive. Join in",
+          "The portico walk to San Luca takes 40 minutes uphill. Do it for the view at the top"
+        ]
+      }
+    },
+    "como": {
+      "name": "Como",
+      "emoji": "🏔",
+      "taglines": {
+        "beach": "no beach, but lake swimming off the boat is even better",
+        "party": "elegant bars, lakeside aperitivo, casino at Campione",
+        "culture": "Romanesque cathedral, silk museums, historic villas",
+        "food": "lake fish, risotto, polenta, and the most elegant dining in Lombardy",
+        "relax": "lake views, villa gardens, mountain air. This is the antidote to stress.",
+        "mix": "Como is where the Lombardy elite escape. You'll understand why in about 10 minutes."
+      },
+      "vibes": [
+        "relax",
+        "culture",
+        "food",
+        "mix"
+      ],
+      "gradient": [
+        "#2471a3",
+        "#1a5276"
+      ],
+      "welcome": "Lake Como is where Italy goes to breathe. The lake is shaped like an inverted Y, framed by Alpine foothills and dotted with villages that seem too beautiful to be real. Como city serves as the gateway, with a lovely medieval centre and a magnificent cathedral. But the real magic is on the water - in Bellagio, Varenna, and the villas that line the shore. George Clooney owns a villa here. You will immediately see why.",
+      "hotels": {
+        "budget": [
+          {
+            "name": "Ostello Bello Lake Como",
+            "desc": "Social hostel with buzzing bar, live music and secret garden. Free pasta kitchen and nightly events.",
+            "price": "From £25/night",
+            "bookingLink": "https://www.booking.com/hotel/it/ostello-bello-lago-di-como.en-gb.html?aid=304433",
+            "vibe": "Social / Lake Hostel",
+            "area": "Como",
+            "proximity": "5-min walk to lake, 10-min to Duomo"
+          },
+          {
+            "name": "Hotel Firenze",
+            "desc": "Classic 3-star in Como historic centre with old-world charm and rooftop terrace. Family-run steps from the Duomo.",
+            "price": "From £80/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-firenze.en-gb.html?aid=304433",
+            "vibe": "Classic / Central",
+            "area": "Como",
+            "proximity": "1-min to Duomo, 5-min to lake"
+          },
+          {
+            "name": "La Locanda del Vapore",
+            "desc": "Boutique B&B in a converted steam laundry with eclectic design. Each room has unique vintage character.",
+            "price": "From £90/night",
+            "bookingLink": "https://www.booking.com/hotel/it/locanda-del-vapore.en-gb.html?aid=304433",
+            "vibe": "Boutique / Vintage",
+            "area": "Como",
+            "proximity": "10-min walk to lake, 5-min to station"
+          }
+        ],
+        "mid": [
+          {
+            "name": "Hotel Villa Flori",
+            "desc": "Elegant 4-star lakeside with Art Nouveau flair and private beach. Early 1900s villa with lush gardens and pool.",
+            "price": "From £120/night",
+            "bookingLink": "https://www.booking.com/hotel/it/hotel-villa-flori.en-gb.html?aid=304433",
+            "vibe": "Elegant / Lakefront",
+            "area": "Como",
+            "proximity": "Lakefront promenade, 15-min walk to centre"
+          },
+          {
+            "name": "Palazzo Albricci Peregrini",
+            "desc": "Luxury boutique in a restored 16th-century palazzo with frescoed ceilings. Spa and rooftop lounge.",
+            "price": "From £150/night",
+            "bookingLink": "https://www.booking.com/hotel/it/palazzo-albricci-peregrini.en-gb.html?aid=304433",
+            "vibe": "Luxury / Historic",
+            "area": "Como",
+            "proximity": "3-min to Duomo, 5-min to lake"
+          },
+          {
+            "name": "Albergo Terminus",
+            "desc": "Historic 4-star from the 1800s in Piazza Volta with grand Art Nouveau lobby. Individually decorated rooms.",
+            "price": "From £130/night",
+            "bookingLink": "https://www.booking.com/hotel/it/albergo-terminus.en-gb.html?aid=304433",
+            "vibe": "Historic / Grand",
+            "area": "Como",
+            "proximity": "Adjacent to Como Lago station, 5-min to Duomo"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Grand Hotel Tremezzo",
+            "desc": "Iconic Art Nouveau palace with three pools (one floating on the lake). Michelin-starred dining and Bellagio views.",
+            "price": "From £400/night",
+            "bookingLink": "https://www.booking.com/hotel/it/grand-hotel-tremezzo.en-gb.html?aid=304433",
+            "vibe": "Iconic / Art Nouveau",
+            "area": "Tremezzo",
+            "proximity": "Directly on lakefront"
+          },
+          {
+            "name": "Villa d'Este",
+            "desc": "Legendary 16th-century villa turned 5-star resort. Floating pool, sprawling gardens, hosting royalty since 1873.",
+            "price": "From £600/night",
+            "bookingLink": "https://www.booking.com/hotel/it/villa-d-este.en-gb.html?aid=304433",
+            "vibe": "Legendary / Palace",
+            "area": "Cernobbio",
+            "proximity": "Lakefront, 10-min drive to Como"
+          },
+          {
+            "name": "Mandarin Oriental Lago di Como",
+            "desc": "Ultra-luxury retreat in lakeside villas. Oriental spa and Michelin-starred dining. Discreet five-star sophistication.",
+            "price": "From £700/night",
+            "bookingLink": "https://www.booking.com/hotel/it/mandarin-oriental-lago-di-como.en-gb.html?aid=304433",
+            "vibe": "Ultra-Luxury / Retreat",
+            "area": "Blevio",
+            "proximity": "Lakefront, 10-min drive to Como"
+          }
+        ]
+      },
+      "donts": [
+        "Don't arrive without booking - Lake Como in summer sells out months ahead",
+        "Don't stay in Como city the whole time - the villages are the real magic",
+        "Don't skip a boat tour - seeing the villas from the water is essential",
+        "Don't try to drive around the lake - the roads are narrow and parking impossible"
+      ],
+      "transport": "Trains from Milan to Como (€5-10, 40-60min depending on service). The ferry system is the best way to explore the lake - buy a day pass (€18-30). The C30 bus runs up the western shore. Taxis between villages are expensive. Walking is best in the small towns.",
+      "fiestas": [
+        {
+          "season": "autumn",
+          "emoji": "🎉",
+          "e": "Il Palio del Baradello",
+          "m": "September",
+          "desc": "medieval reenactment in Como city."
+        },
+        {
+          "season": "summer",
+          "emoji": "🎉",
+          "e": "Sagre del Pesce",
+          "m": "summer",
+          "desc": "lake fish festivals in various villages."
+        },
+        {
+          "season": "winter",
+          "emoji": "🎄",
+          "e": "Christmas markets on the lake",
+          "m": "December",
+          "desc": "Como and Bellagio have festive markets that are beautiful."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Buongiorno",
+          "meaning": "Good morning"
+        },
+        {
+          "phrase": "Grazie",
+          "meaning": "Thank you"
+        },
+        {
+          "phrase": "Un giro in barca, per favore",
+          "meaning": "A boat ride, please"
+        },
+        {
+          "phrase": "Dov'e Bellagio?",
+          "meaning": "Where is Bellagio?"
+        },
+        {
+          "phrase": "Che vista!",
+          "meaning": "What a view!"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Bellagio",
+          "emoji": "🏘",
+          "desc": "The 'Pearl of the Lake'. Cobbled streets, stunning views, elegant shops."
+        },
+        {
+          "name": "Varenna",
+          "emoji": "🏠",
+          "desc": "Quieter than Bellagio, equally beautiful. The lakeside promenade is perfect."
+        },
+        {
+          "name": "Villa del Balbianello",
+          "emoji": "🏛",
+          "desc": "Star Wars filming location. The gardens are extraordinary."
+        },
+        {
+          "name": "Como Cathedral (Duomo)",
+          "emoji": "⛪",
+          "desc": "Marble gothic cathedral. Impressive for a city this size."
+        },
+        {
+          "name": "Funicular to Brunate",
+          "emoji": "🚡",
+          "desc": "Panoramic view over the lake from the mountain village above Como."
+        },
+        {
+          "name": "Villa Carlotta",
+          "emoji": "🌺",
+          "desc": "Botanical gardens and art collection in Tremezzo. Stunning azaleas."
+        },
+        {
+          "name": "Menaggio",
+          "emoji": "🏘",
+          "desc": "Lively town on the western shore. Great restaurants and lake swim spots."
+        },
+        {
+          "name": "Isola Comacina",
+          "emoji": "🏝",
+          "desc": "The only island on Lake Como. Tiny, historic, worth the boat trip."
+        }
+      ],
+      "day_trips": [
+        {
+          "name": "Switzerland (Lugano)",
+          "duration": "Full day",
+          "price": "€20pp train",
+          "tip": "Bring your passport! Cross-border town is 30 minutes by train. Completely different vibe"
+        },
+        {
+          "name": "Lake Garda",
+          "duration": "Full day",
+          "price": "€30pp",
+          "tip": "Italy's largest lake. Different character to Como - more resort, more fun"
+        },
+        {
+          "name": "Milan",
+          "duration": "Full day",
+          "price": "€10pp train",
+          "tip": "Fast train from Como to Milan in 40 minutes. Easy day trip"
+        }
+      ],
+      "airport": {
+        "airports": [
+          {
+            "name": "Milan Malpensa",
+            "code": "MXP",
+            "buses": "Flibco direct to Como, 50 min, ~€10",
+            "train": "Malpensa Exp to Saronno + regional to Como Nord Lago, 60 min, ~€12",
+            "taxi": "55-70 min, ~€120-160"
+          },
+          {
+            "name": "Milan Linate",
+            "code": "LIN",
+            "buses": "Bus + train ~1.5h, ~€10-13",
+            "train": "Not applicable; bus to Stazione Centrale then train to Como",
+            "taxi": "~€95-140"
+          },
+          {
+            "name": "Bergamo Orio al Serio",
+            "code": "BGY",
+            "buses": "Bus + train ~2h, ~€13-15",
+            "train": "Bus to Bergamo station then train to Como",
+            "taxi": "~€129-165"
+          }
+        ],
+        "tips": "MXP is most practical. Flibco bus is cheapest direct option to Como. Book online."
+      },
+      "attractionPrices": [
+        {
+          "name": "Como Cathedral",
+          "priceEUR": 0,
+          "notes": "Free entry. Roof climb ~€7. Modest dress required."
+        },
+        {
+          "name": "Villa del Balbianello",
+          "priceEUR": 15,
+          "notes": "Park only €15, villa+guided tour €25. Closed Mon & Wed. Mandatory online booking weeks ahead."
+        },
+        {
+          "name": "Villa Carlotta",
+          "priceEUR": 17.50,
+          "notes": "€17.50 adults, €15 seniors, €12 students, €7 children 6-18. Best Apr-May for azalea bloom."
+        },
+        {
+          "name": "Funicular to Brunate",
+          "priceEUR": 7.20,
+          "notes": "€7.20 round trip, €3.60 single. Kids under 1.1m free. Tickets at station only. 7 min ride."
+        },
+        {
+          "name": "Monte Bisbino",
+          "priceEUR": 0,
+          "notes": "Free hiking summit 1,325m. Start from Cernobbio, 3-4 hr hike or drive up."
+        },
+        {
+          "name": "Volta Temple",
+          "priceEUR": 6,
+          "notes": "€6 adults, €4 reduced. Free on Intl Museum Day (May 18). Como Art Pass for 3 city museums €16."
+        }
+      ],
+      "dayTrips": [
+        {
+          "name": "Bellagio",
+          "description": "Pearl of the Lake at Como Y-fork. Villa Melzi gardens (€8), cobbled lanes, designer boutiques.",
+          "transport": "Ferry from Como (2h slow/45min fast, €12.40/€18.80). Central lake day pass €15.20.",
+          "bestFor": "Couples"
+        },
+        {
+          "name": "Varenna",
+          "description": "Pastel fishing village, Passeggiata degli Innamorati, Villa Monastero gardens (€10).",
+          "transport": "Direct train from Milan Centrale (1h, €7.40). Ferry from Bellagio (15 min, €4.60).",
+          "bestFor": "Couples"
+        },
+        {
+          "name": "Lugano (Switzerland)",
+          "description": "Lake Lugano, Monte San Salvatore funicular, Swiss chocolate, high-end shopping.",
+          "transport": "Direct train from Milan Centrale (1h 15min, ~€15). Or from Como by train (30 min).",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Milan",
+          "description": "Duomo rooftop, The Last Supper, La Scala, Galleria Vittorio Emanuele II, Navigli.",
+          "transport": "Train from Como San Giovanni (40 min, €5.20) or Varenna (1h, €7.40). Every 30-60 min.",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Bergamo",
+          "description": "Medieval Citta Alta, Piazza Vecchia, Venetian walls (UNESCO), funicular to San Vigilio.",
+          "transport": "Direct train from Milan Centrale (48 min, €6). Hourly.",
+          "bestFor": "Culture"
+        }
+      ],
+      "sarah_knows": {
+        "airport": "Milan Malpensa (MXP) or Linate (LIN). Both 60-90 minutes from Como",
+        "to_city": "Train from Milan Cadorna (€5, 60min). Malpensa Express to Como (€15, 70min). Car service from Milan (€80, 45min)",
+        "best_time": "May-June or September. July-August is peak season with crowds and heat. October has golden autumn colours",
+        "eating": [
+          "Misultini (dried lake fish) are a Como specialty - an acquired taste but try it",
+          "Risotto with perch (risotto con pesce persico) is the classic lake dish",
+          "Polenta is more common here than pasta - it's the Alpine influence",
+          "Local wines like Sassella and Inferno from nearby Valtellina are excellent"
+        ],
+        "safety": [
+          "Lake Como is extremely safe. Usual vigilance with valuables in crowded areas",
+          "Emergency: 112 (EU-wide). Lake rescue: 115"
+        ],
+        "local_tips": [
+          "Don't bother with a car - the ferry pass is the best way to see the lake",
+          "Book dinner restaurants in Bellagio weeks ahead - the lakeside tables go instantly",
+          "Swim off the boat, not from the shore - most of the shoreline is private",
+          "Visit the villas early (opening time) or late (2 hours before closing) for fewer crowds"
+        ]
+      }
+    },
+    "turin": {
+      "name": "Turin",
+      "emoji": "👑",
+      "taglines": {
+        "beach": "landlocked - but the Alps are right there for hikes",
+        "party": "mole, movies, aperitivo on the Po. Elegant rather than wild.",
+        "culture": "Egyptian Museum, Savoy palaces, the Shroud of Turin",
+        "food": "chocolate, truffles, vermouth, and the best coffee in Italy",
+        "relax": "arcaded streets, cafe culture, mountain views at sunset",
+        "mix": "Turin is Italy's most elegant city - and nobody in the north tells you about it"
+      },
+      "vibes": [
+        "culture",
+        "food",
+        "relax",
+        "mix"
+      ],
+      "gradient": [
+        "#5b2c6f",
+        "#2e1a47"
+      ],
+      "welcome": "Turin is Italy's most underrated city. Once the capital of the Kingdom of Italy, it is a city of arcaded boulevards, grand piazzas, and the most elegant cafes in the country. The Egyptian Museum is second only to Cairo's. The food is extraordinary - chocolate, truffles, vermouth, and agnolotti. The Alps provide a dramatic backdrop. Turin is sophisticated, cultured, and waiting to be discovered.",
+      "hotels": {
+        "budget": [
+          {
+            "name": "Hostel Turin",
+            "desc": "Budget-friendly hostel with dorms and private rooms. Shared kitchen, lounge and garden terrace.",
+            "price": "From £15/night",
+            "bookingLink": "https://www.booking.com/hotel/it/turin-metro-hostel.en-gb.html?aid=304433",
+            "vibe": "Budget / Residential",
+            "area": "San Donato",
+            "proximity": "40-min walk (bus/tram to centre)"
+          },
+          {
+            "name": "Hotel Dogana Vecchia",
+            "desc": "Turin oldest hotel (300+ years) with antique and modern decor. Stone floors and marble staircases.",
+            "price": "From £54/night",
+            "bookingLink": "https://www.booking.com/hotel/it/dogana-vecchia.en-gb.html?aid=304433",
+            "vibe": "Historic / Oldest Hotel",
+            "area": "Quadrilatero Romano",
+            "proximity": "5-min walk to Piazza Castello"
+          },
+          {
+            "name": "B&B Le Chiocciole",
+            "desc": "Cozy B&B in Turin. Note: may not have direct Booking.com listing - uses search fallback.",
+            "price": "From £50/night",
+            "bookingLink": "https://www.booking.com/hotel/it/le-chiocciole.en-gb.html?aid=304433",
+            "vibe": "Charming / B&B",
+            "area": "Turin centre",
+            "proximity": "Central location"
+          }
+        ],
+        "mid": [
+          {
+            "name": "Hotel Principi di Piemonte",
+            "desc": "Iconic 5-star Rationalist landmark from the 1930s. Panoramic city and Alps views, indoor pool and spa.",
+            "price": "From £155/night",
+            "bookingLink": "https://www.booking.com/hotel/it/principi-di-piemonte.en-gb.html?aid=304433",
+            "vibe": "Iconic / Rationalist",
+            "area": "Via Roma",
+            "proximity": "5-min walk to Piazza Castello"
+          },
+          {
+            "name": "NH Collection Torino Santo Stefano",
+            "desc": "Modern 4-star in a Gabetti-designed building. Rooftop terrace with panoramic city views.",
+            "price": "From £150/night",
+            "bookingLink": "https://www.booking.com/hotel/it/nh-collection-torino-santo-stefano.en-gb.html?aid=304433",
+            "vibe": "Modern / Rooftop",
+            "area": "Quadrilatero Romano",
+            "proximity": "8-min walk to Piazza Castello"
+          },
+          {
+            "name": "Hotel Liberty",
+            "desc": "Charming 3-star with elegant furnishings, spacious rooms and small spa. Peaceful retreat near the centre.",
+            "price": "From £60/night",
+            "bookingLink": "https://www.booking.com/hotel/it/residence-liberty.en-gb.html?aid=304433",
+            "vibe": "Charming / Spa",
+            "area": "Crocetta",
+            "proximity": "15-min walk to centre"
+          }
+        ],
+        "luxury": [
+          {
+            "name": "Grand Hotel Sitea",
+            "desc": "Luxury 5-star with Michelin-starred restaurant and marble bathrooms. Behind Piazza San Carlo.",
+            "price": "From £150/night",
+            "bookingLink": "https://www.booking.com/hotel/it/grandhotelsitea.en-gb.html?aid=304433",
+            "vibe": "Luxury / Classic",
+            "area": "Piazza San Carlo",
+            "proximity": "10-min walk to Piazza Castello"
+          },
+          {
+            "name": "Principale di Piemonte",
+            "desc": "Hotel in central Turin. Note: may not have direct Booking.com listing - uses search fallback.",
+            "price": "From £80/night",
+            "bookingLink": "https://www.booking.com/hotel/it/principale-di-piemonte.en-gb.html?aid=304433",
+            "vibe": "Central / Classic",
+            "area": "Turin centre",
+            "proximity": "Central location"
+          },
+          {
+            "name": "Le Meridien Lingotto",
+            "desc": "Design hotel in Renzo Piano converted Fiat Lingotto factory. Rooftop test track, industrial-chic architecture.",
+            "price": "From £85/night",
+            "bookingLink": "https://www.booking.com/hotel/it/nh-torino-lingotto-tech.en-gb.html?aid=304433",
+            "vibe": "Design / Fiat Factory",
+            "area": "Lingotto",
+            "proximity": "30-min tram/metro from centre"
+          }
+        ]
+      },
+      "donts": [
+        "Don't miss the Egyptian Museum - it's the best outside Cairo and most tourists skip it",
+        "Don't skip a cafe in one of Turin's historic cafes - Caffe San Carlo or Caffe Torino",
+        "Don't expect wild nightlife - Turin is elegant and intellectual, not a club city",
+        "Don't forget to buy chocolate - Gianduiotto is the local specialty"
+      ],
+      "transport": "Turin is a grid city - very easy to navigate. The Metro has one line but covers the main train station and centre. Trams and buses fill the rest. The city is very walkable, especially the arcaded streets. Buy a 24-hour GTT pass for unlimited transport.",
+      "fiestas": [
+        {
+          "season": "spring",
+          "emoji": "🎉",
+          "e": "Cioccolato",
+          "m": "February/March",
+          "desc": "chocolate festival in Piazza Vittorio."
+        },
+        {
+          "season": "autumn",
+          "emoji": "🎉",
+          "e": "Salone del Gusto",
+          "m": "even years, October",
+          "desc": "Slow Food's flagship event."
+        },
+        {
+          "season": "summer",
+          "emoji": "🎉",
+          "e": "Festa di San Giovanni",
+          "m": "June 24",
+          "desc": "patron saint with fireworks on the Po River."
+        }
+      ],
+      "phrases": [
+        {
+          "phrase": "Buongiorno",
+          "meaning": "Good morning"
+        },
+        {
+          "phrase": "Un bicerin, per favore",
+          "meaning": "A bicerin (Turin's famous hot drink), please"
+        },
+        {
+          "phrase": "Grazie",
+          "meaning": "Thank you"
+        },
+        {
+          "phrase": "Dov'e il Museo Egizio?",
+          "meaning": "Where is the Egyptian Museum?"
+        },
+        {
+          "phrase": "Che elegante!",
+          "meaning": "How elegant!"
+        }
+      ],
+      "attractions": [
+        {
+          "name": "Mole Antonelliana and Cinema Museum",
+          "emoji": "🗼",
+          "desc": "Turin's landmark. The lift goes to the top. The cinema museum inside is world-class."
+        },
+        {
+          "name": "Egyptian Museum (Museo Egizio)",
+          "emoji": "🪦",
+          "desc": "Second only to Cairo. Give it 3 hours minimum. The statues are extraordinary."
+        },
+        {
+          "name": "Piazza San Carlo",
+          "emoji": "🏛",
+          "desc": "Turin's 'drawing room'. Two Baroque churches and the best cafes."
+        },
+        {
+          "name": "Piazza Castello and Royal Palace",
+          "emoji": "🏰",
+          "desc": "The Savoy residence. The Chapel of the Holy Shroud is inside."
+        },
+        {
+          "name": "Porta Palazzo Market",
+          "emoji": "🥬",
+          "desc": "Europe's largest outdoor market. Every food you can imagine."
+        },
+        {
+          "name": "Basilica of Superga",
+          "emoji": "⛪",
+          "desc": "On the hill above Turin. Views over the city and Alps are breathtaking."
+        },
+        {
+          "name": "Roman Theatre and Palatine Tower",
+          "emoji": "🏛",
+          "desc": "Roman ruins integrated into the city. Free to visit."
+        },
+        {
+          "name": "Valentino Park",
+          "emoji": "🌳",
+          "desc": "Lovely park along the Po. Medieval castle inside. Sunday afternoon spot."
+        }
+      ],
+      "day_trips": [
+        {
+          "name": "Alps (Via Lattea Ski Area)",
+          "duration": "Full day",
+          "price": "€30pp train",
+          "tip": "Winter skiing, summer hiking. 90 minutes from Turin to Sestriere"
+        },
+        {
+          "name": "Langhe Wine Region",
+          "duration": "Full day",
+          "price": "€50pp tour",
+          "tip": "Barolo and Barbaresco vineyards. Truffle hunting in autumn. Italy's best wine region"
+        },
+        {
+          "name": "Aosta Valley",
+          "duration": "Full day",
+          "price": "€25pp train",
+          "tip": "Roman ruins, medieval castles, Alpine views. Completely different world"
+        },
+        {
+          "name": "Alba and Asti",
+          "duration": "Full day",
+          "price": "€15pp train",
+          "tip": "White truffle capital of the world. Go in autumn for the truffle fair"
+        }
+      ],
+      "airport": {
+        "airports": [
+          {
+            "name": "Turin Caselle",
+            "code": "TRN",
+            "buses": "Arriva Italia €7.50 (€8.50 on board), 45-50 min to Porta Nuova/Porta Susa; Flibco from €3.99 online, 25-30 min direct",
+            "train": "SFM4/6/7 regional €3.60, 30-35 min to Porta Susa, every 30 min weekdays",
+            "taxi": "€36-50 fixed fare, 30 min; €50-55 after 10pm"
+          }
+        ],
+        "tips": "Train is cheapest/fastest. Flibco bus best value at €3.99 online. Torino+Piemonte Card includes unlimited public transport."
+      },
+      "attractionPrices": [
+        {
+          "name": "Mole Antonelliana (Cinema Museum)",
+          "priceEUR": 18,
+          "notes": "Museum €18, panoramic lift €9, combined €23. Free under-5s. No regular free day."
+        },
+        {
+          "name": "Egyptian Museum",
+          "priceEUR": 18,
+          "notes": "€18 full, €3 students (15-18), €1 juniors (6-14). Online booking mandatory. Free on your birthday."
+        },
+        {
+          "name": "Palazzo Reale (Royal Palace)",
+          "priceEUR": 15,
+          "notes": "€15 full (Tues-Sun). Monday-only €10. €2 reduced (18-25). Free 1st Sun. Closed Mondays."
+        },
+        {
+          "name": "Palazzo Madama",
+          "priceEUR": 10,
+          "notes": "€10 full, €8 reduced, €5 garden only. Free 1st Sun. Houses Museo Civico d'Arte Antica."
+        },
+        {
+          "name": "Cathedral + Shroud of Turin",
+          "priceEUR": 0,
+          "notes": "Cathedral free. Shroud replica on display; original rare expositions only."
+        },
+        {
+          "name": "Valentino Park",
+          "priceEUR": 0,
+          "notes": "Free public park along Po River. Medieval castle, botanical garden."
+        }
+      ],
+      "dayTrips": [
+        {
+          "name": "Alba & Barolo Wine Region",
+          "description": "UNESCO Langhe hills, Barolo and Barbaresco vineyards, white truffle fair (autumn).",
+          "transport": "Train Porta Nuova/Susa to Alba €6-11, 1h20min. Limited bus to villages. Car recommended.",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Aosta Valley",
+          "description": "Roman ruins (Arch of Augustus, theatre), Alpine backdrop, Mont Blanc/Matterhorn gateway.",
+          "transport": "Train Porta Nuova to Aosta €10-15, ~2h. Hourly departures.",
+          "bestFor": "Couples"
+        },
+        {
+          "name": "Sacra di San Michele",
+          "description": "Mountaintop abbey (inspiration for The Name of the Rose), 960m up, panoramic views.",
+          "transport": "Train+bus €6.30 to Avigliana then bus (seasonal Sat/Sun only, Apr-Oct). Taxi from Avigliana €25.",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Vercelli",
+          "description": "Rice paddies, Basilica di Sant'Andrea (Romanesque-Gothic), Vercelli Book manuscript.",
+          "transport": "Train from Porta Nuova/Susa from €7.70, 35-50 min. ~25 trains daily.",
+          "bestFor": "Culture"
+        },
+        {
+          "name": "Langhe Hills (UNESCO)",
+          "description": "Vineyards, medieval villages (Barolo, La Morra, Neive), wine tastings, cycling.",
+          "transport": "Train to Alba €6-11, 1h10min. Car or organised tour strongly recommended.",
+          "bestFor": "Couples"
+        }
+      ],
+      "sarah_knows": {
+        "airport": "Turin Caselle Airport (TRN)",
+        "to_city": "SADEM bus from airport to Porta Susa (€7, 40min). Taxi (€35 fixed, 30min)",
+        "best_time": "April-June or September-October. Winter for skiing in the Alps. Summer is hot but less crowded than other Italian cities",
+        "eating": [
+          "Gianduia (chocolate-hazelnut spread) was invented in Turin - buy the real thing, not Nutella",
+          "Bicerin is Turin's signature drink - espresso, chocolate, cream layered in a small glass",
+          "Agnolotti del plin are tiny pasta parcels filled with meat - a local specialty",
+          "Vermouth was invented in Turin - visit Carpano or Cinzano for the history"
+        ],
+        "safety": [
+          "Turin is one of Italy's safest cities. Standard precautions apply at Porta Nuova station at night",
+          "Emergency: 112 (EU-wide)"
+        ],
+        "local_tips": [
+          "The arcaded streets (portici) stretch 18 kilometres - Turin has the longest covered walkways",
+          "Egyptian Museum tickets should be booked online in advance to skip the queue",
+          "Turin has the best cafe culture in Italy - sit down at Caffe Torino or Caffe San Carlo",
+          "The Museo dell'Automobile is brilliant even if you don't care about cars - the building is stunning"
+        ]
+      }
+    }
+  }
+}

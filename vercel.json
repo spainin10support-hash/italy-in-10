@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "builds": [
+    { "src": "app.js", "use": "@vercel/node" },
+    { "src": "public/**/*", "use": "@vercel/static" },
+    { "src": "dist/italy/**/*", "use": "@vercel/static" }
+  ],
+  "routes": [
+    { "src": "/.well-known/assetlinks.json", "dest": "/public/.well-known/assetlinks.json" },
+    { "src": "/manifest.json", "dest": "/dist/italy/manifest.json" },
+    { "src": "/static/(.*)", "dest": "/dist/italy/static/$1" },
+    { "src": "/icons/(.*)", "dest": "/public/icons/$1" },
+    { "src": "/website", "dest": "/public/website.html" },
+    { "src": "/privacy", "dest": "/public/privacy.html" },
+    { "src": "/sarah/(.*)", "dest": "/dist/italy/sarah/$1", "headers": { "Cache-Control": "no-cache" } },
+    { "src": "/city/(.*)", "dest": "/dist/italy/city/$1" },
+    { "src": "/journey/(.*)", "dest": "/dist/italy/journey/$1" },
+    { "src": "/fiestas/(.*)", "dest": "/dist/italy/fiestas/$1" },
+    { "src": "/help", "dest": "/dist/italy/help/index.html" },
+    { "src": "/phrases", "dest": "/dist/italy/phrases/index.html" },
+    { "src": "/legal", "dest": "/dist/italy/legal/index.html" },
+    { "src": "/sarah-chat", "dest": "/app.js" },
+    { "src": "/(.*)", "dest": "/app.js" }
+  ]
+}

@@ -1,0 +1,67 @@
+.sarah-fab {
+  position: fixed;
+  bottom: 145px;
+  right: 18px;
+  width: 52px;
+  height: 52px;
+  background: #1c1a18;
+  border-radius: 50%;
+  border: none;
+  padding: 0;
+  overflow: hidden;
+  box-shadow: 0 0 0 2px rgba(212,168,67,0.5), 0 6px 20px rgba(0,0,0,0.35);
+  z-index: 998;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  animation: sarahFabPulse 4s ease-in-out infinite;
+}
+.sarah-fab:active {
+  transform: scale(0.93);
+  animation: none;
+}
+@keyframes sarahFabPulse {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(212,168,67,0.5), 0 6px 20px rgba(0,0,0,0.35); }
+  50% { box-shadow: 0 0 0 5px rgba(212,168,67,0.15), 0 0 0 2px rgba(212,168,67,0.6), 0 6px 20px rgba(0,0,0,0.35); }
+}
+.sarah-fab-s {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+  user-select: none;
+  pointer-events: none;
+}
+.sarah-fab-label {
+  position: fixed;
+  bottom: 158px;
+  right: 86px;
+  background: #1c1a18;
+  color: #faf7f2;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 6px 12px;
+  border-radius: 20px;
+  white-space: nowrap;
+  z-index: 997;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateX(8px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.sarah-fab-label::after {
+  content: '';
+  position: absolute;
+  right: -5px;
+  top: 50%;
+  transform: translateY(-50%);
+  border: 5px solid transparent;
+  border-left-color: #1c1a18;
+  border-right: none;
+}
+.sarah-fab-label.sarah-label-show {
+  opacity: 1;
+  transform: translateX(0);
+}

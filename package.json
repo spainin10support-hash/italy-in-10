@@ -1,0 +1,16 @@
+{
+  "name": "italy-in-10",
+  "version": "1.0.0",
+  "description": "10 Minute Italy - City Travel Guides",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {},
+  "engines": {
+    "node": "24.x"
+  }
+}
+
+
+

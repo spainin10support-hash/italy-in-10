@@ -1,0 +1,16 @@
+{
+  "name": "Italy in 10 Minutes",
+  "short_name": "Italy Guide",
+  "description": "Your pocket Italy travel guide — cities, food, culture, and the Sarah AI trip planner",
+  "start_url": "/",
+  "display": "standalone",
+  "display_override": ["window-controls-overlay", "standalone", "minimal-ui"],
+  "background_color": "#1a7a3a",
+  "theme_color": "#1a7a3a",
+  "categories": ["travel", "lifestyle"],
+  "icons": [
+    { "src": "/sarah/sarah-avatar.png", "sizes": "104x104", "type": "image/png" },
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
