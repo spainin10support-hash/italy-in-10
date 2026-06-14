@@ -46,37 +46,36 @@ Build Italy in 10 as a clean, extensible template app that can be copied for Por
 - PWA icons added (`icon-512.png`, `icon-192.png` from Spain as placeholders); service worker created (`sw.js`) and registered
 - France in 10 skeleton created (`C:\Users\user\Documents\Projects\France in 10\`) with folder structure, `package.json`, `vercel.json`, `.gitignore`
 - France hotels researched in 4 cities: Paris, Nice, Lyon, Bordeaux (9 hotels each, 3 tiers) → `research/*.md`
-- **This session (14 Jun)**: `.gitignore` updated to exclude `app/build/`, `.gradle/`, `build/`, `.idea/`, `app/release/`, `*.jks` — 1008 build artifact files removed from git tracking
-- **This session**: Commit amended and pushed to GitHub successfully
-
-### In Progress
-- (none — waiting on user)
+- **This session (14 Jun)**: `.gitignore` updated — 1008 build artifact files removed from git tracking, commit amended and pushed
+- **This session**: `assetlinks.json` SHA256 updated to match Italy keystore (`7D:47:2C:...`, owner `CN=Neil`)
+- **This session**: PWA manifest reconciled — `short_name: "Italy10"`, both 192+512 icons, `display_override: ["fullscreen", "standalone"]`
+- **This session**: Service worker improved to precache manifest + icons + core CSS/JS
+- **This session**: All PWA + Android icons replaced — new Italian design (dark red bg, Italy map, 10)
+- **This session**: Fixed blank mobile screen — removed `jimp` from runtime deps, added `defer` to render-blocking scripts (italy.js 174KB + database.js 122KB were blocking paint)
 
 ### Blocked
-- Play Store listing for Italy needs checklist items completed (description, screenshots, content questionnaire, countries selected)
-- `italy.roamin10.com` PWA may need `assetlinks.json` SHA256 fingerprint updated if Sarah used a new keystore
+- Play Store listing for Italy needs: description, 2-3 screenshots, content questionnaire, target countries, submit for review
 - `roamin10.com` landing page still Spain-only — needs generic makeover
 - `cinque_terre` / `cinque-terre` slug mismatch pre-existing, band-aid fix needed
 - ~80 hotels have best-guess slugs (unverified, but functional)
 - France app has no `app.js`, no data files, no Sarah setup yet
 
 ## Key Decisions
-- Premium data constants live in `generate-italy-data.js` (not `italy.json`) — cleaner than bloating the 3600-line JSON
+- Premium data constants live in `generate-italy-data.js` (not `italy.json`)
 - Google Maps search links replace TheFork for restaurant booking — works globally with Italian city names
-- Italian city names (`Firenze`, `Roma`) used in Google Maps URLs for accurate geolocation
 - Per-country email addresses (italy10minutes, spainin10support)
 - Separate Vercel projects per country rather than one unified app
 - `roamin10.com` as mothership landing page with country cards
 - France will use same template as Italy when populated
-- Android build artifacts go in `.gitignore` — only source files tracked
+- Android build artifacts excluded via `.gitignore` — only source files tracked
+- `jimp` is a build-time tool only (NOT in runtime deps) — use `npm run icons` to regenerate
 
 ## Next Steps
-1. Complete Play Store checklist for Italy: add description, upload 2-3 screenshots, fill content questionnaire, select target countries, send for review
-2. Create proper Italian app icon with number 10 (Canva or similar)
-3. Test PWA install prompt on phone at `italy.roamin10.com`
-4. Update `assetlinks.json` SHA256 fingerprint if new keystore was used
-5. Delete old `10MinuteITALY` folder (Spain backup)
-6. Populate France: `france.json`, `generate-france-data.js`, copy Sarah core files
+1. Submit Play Store listing (description, screenshots, content questionnaire, select countries)
+2. Test PWA install prompt on phone at `italy.roamin10.com`
+3. Test Android app via installed AAB (verify full-screen TWA with new icons)
+4. Delete old `10MinuteITALY` folder (Spain backup)
+5. Populate France: `france.json`, `generate-france-data.js`, copy Sarah core files
 
 ## Critical Context
 - Server runs on `http://localhost:3000`, city pages at `?city=florence` etc.
