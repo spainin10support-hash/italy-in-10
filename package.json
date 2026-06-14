@@ -6,11 +6,10 @@
   "scripts": {
     "start": "node app.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "jimp": "^1.6.1"
+  },
   "engines": {
     "node": "24.x"
   }
 }
-
-
-
