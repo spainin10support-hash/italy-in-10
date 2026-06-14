@@ -183,7 +183,7 @@ const server = http.createServer(async (req, res) => {
   }
 
   // ── Serve static files from public/ ──────────────────────────
-  if (filePath.startsWith('/sarah/') || filePath === '/manifest.json' || filePath.startsWith('/icons/') || filePath.startsWith('/.well-known/')) {
+  if (filePath.startsWith('/sarah/') || filePath === '/manifest.json' || filePath.startsWith('/icons/') || filePath.startsWith('/.well-known/') || filePath === '/sw.js') {
     const fullPath = path.join(__dirname, 'public', filePath);
     const ext = path.extname(fullPath);
     const mime = { '.css':'text/css', '.js':'application/javascript', '.json':'application/json', '.png':'image/png', '.jpg':'image/jpeg', '.ico':'image/x-icon', '.html':'text/html' };
@@ -284,6 +284,7 @@ const server = http.createServer(async (req, res) => {
     <script src="/sarah/data/italy.js"></script>
     <script src="/sarah/data/database.js"></script>
     <script src="/sarah/sarah-core.js?v=5"></script>
+    <script>if('serviceWorker'in navigator)navigator.serviceWorker.register('/sw.js');</script>
     <meta name="google" content="notranslate">
     <meta name="mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-capable" content="yes">

@@ -1,6 +1,12 @@
 node_modules/
 .env
 local.properties
+app/build/
+app/release/
 *.keystore
 .DS_Store
 Thumbs.db
+.gradle/
+build/
+*.jks
+.idea/

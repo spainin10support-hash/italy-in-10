@@ -52,6 +52,13 @@ Build Italy in 10 as a clean, extensible template app — copy for Portugal, Fra
 - **Today**: `dist/italy/sarah/` and `engine/public/sarah/` synced from public/sarah/ source
 - **Today**: Dead `airport`, `attractionPrices`, `dayTrips` removed from `app.js` cityDatabase (lines 106-108)
 
+### This Session (11 Jun)
+- Italy deployed to Vercel at `italy.roamin10.com` ✅
+- Android project copied from Spain, fully Italy-ified (package `com.italy10.city.twa`) ✅
+- AAB built and uploaded to Play Console (pending store listing setup) ✅
+- France skeleton created in `C:\Users\user\Documents\Projects\France in 10\` ✅
+- France hotels researched in 4 cities: Paris, Nice, Lyon, Bordeaux (all saved to `research/*.md`) ✅
+
 ### Remaining (nice-to-have / deferred)
 - ~80 hotels have best-guess slugs (unverified) — wrong slugs show Booking.com page, functional
 - Make Sarah aware of journey context (deferred)
@@ -63,6 +70,10 @@ Build Italy in 10 as a clean, extensible template app — copy for Portugal, Fra
 - Slugs are unpredictable: some hyphenated (`generator-rome`), some concatenated (`grandhoteltremezzopalace`)
 - No reliable way to guess — each must be verified individually
 - Format: `https://www.booking.com/hotel/it/{slug}.en-gb.html?aid=304433`
+
+## Live URLs
+- **Vercel (auto)**: `italy-in-10.vercel.app`
+- **Full URL**: `https://italy-in-10-cdfewjw3b-neilhred-1055s-projects.vercel.app`
 
 ## Critical Context
 - Server runs on `http://localhost:3000`, city pages at `?city=florence` etc.
