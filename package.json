@@ -4,12 +4,10 @@
   "description": "10 Minute Italy - City Travel Guides",
   "main": "app.js",
   "scripts": {
-    "start": "node app.js"
-  },
-  "dependencies": {
-    "jimp": "^1.6.1"
+    "start": "node app.js",
+    "icons": "node scripts/resize-icons.js"
   },
   "engines": {
-    "node": "24.x"
+    "node": "18.x"
   }
 }

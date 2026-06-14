@@ -281,9 +281,9 @@ const server = http.createServer(async (req, res) => {
     <link rel="manifest" href="/manifest.json">
     <link rel="stylesheet" href="/sarah/sarah-ui.css?v=4">
     <link rel="stylesheet" href="/sarah/sarah-fab.css?v=1">
-    <script src="/sarah/data/italy.js"></script>
-    <script src="/sarah/data/database.js"></script>
-    <script src="/sarah/sarah-core.js?v=5"></script>
+    <script defer src="/sarah/data/italy.js"></script>
+    <script defer src="/sarah/data/database.js"></script>
+    <script defer src="/sarah/sarah-core.js?v=5"></script>
     <script>if('serviceWorker'in navigator)navigator.serviceWorker.register('/sw.js');</script>
     <meta name="google" content="notranslate">
     <meta name="mobile-web-app-capable" content="yes">
