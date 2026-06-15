@@ -32,6 +32,88 @@ const SARAH_AFFILIATE_PICKS = [
   { icon: '☀️', tag: 'Pack This', title: 'SPF 50 Sunscreen', desc: 'Far cheaper at home. The sun is no joke!', url: 'https://amzn.to/4t3EnzW' },
 ];
 
+// ── EXCHANGE RATES (Frankfurter API, ECB data) ────────────────
+const SARAH_CURRENCIES = ['EUR', 'GBP', 'USD'];
+const SARAH_CURRENCY_SYMBOLS = { EUR: '€', GBP: '£', USD: '$' };
+
+function _sarahGetRates() {
+  try { const c = JSON.parse(localStorage.getItem('sarah_xr')||'{}'); if (c.ts && Date.now()-c.ts<86400000) return c.rates; } catch(e) {}
+  return null;
+}
+async function _sarahEnsureRates() {
+  let rates = _sarahGetRates();
+  if (!rates) try { const r=await fetch('https://api.frankfurter.app/latest?from=EUR&to=GBP,USD'); const d=await r.json(); if(d&&d.rates){rates=d.rates;localStorage.setItem('sarah_xr',JSON.stringify({rates,ts:Date.now()}));}} catch(e){}
+  return rates || { GBP: 0.85, USD: 1.08 };
+}
+function _sarahPrefCurrency() { return localStorage.getItem('sarah_cur')||'EUR'; }
+function _sarahSetCurrency(c) { localStorage.setItem('sarah_cur',c); }
+function _sarahConvert(amt,to,rates) { if(!rates||!rates[to]||to==='EUR')return amt; return Number((amt*rates[to]).toFixed(2)); }
+function _sarahFormatPrice(eurStr,rates,pref) {
+  if(!eurStr)return''; const n=parseFloat(eurStr.replace(/[^0-9.]/g,'')); if(isNaN(n))return eurStr;
+  const sym=SARAH_CURRENCY_SYMBOLS[pref]||'€';
+  if(pref==='EUR')return sym+Math.round(n);
+  return sym+_sarahConvert(n,pref,rates);
+}
+function _sarahFormatPriceRange(rangeStr,rates,pref) {
+  if(!rangeStr)return''; const sep=rangeStr.includes('–')?'–':'-';
+  const parts=rangeStr.split(sep).map(s=>s.trim());
+  const conv=parts.map(p=>_sarahFormatPrice(p,rates,pref));
+  return conv.join(sep);
+}
+function _sarahDisplayPrice(eurPrice) {
+  if (!eurPrice || eurPrice.includes('€€') || eurPrice === 'Free') return eurPrice;
+  const rates = _sarahGetRates();
+  const pref = _sarahPrefCurrency();
+  if (!rates || pref === 'EUR') return eurPrice;
+  const hasRange = eurPrice.includes('–') || eurPrice.includes('-');
+  if (hasRange) {
+    const converted = _sarahFormatPriceRange(eurPrice, rates, pref);
+    const orig = eurPrice.replace(/€/g, '').trim();
+    return `${converted} <span class="sarah-price-converted">(€${orig})</span>`;
+  }
+  const converted = _sarahFormatPrice(eurPrice, rates, pref);
+  const orig = eurPrice.replace(/€/g, '').trim();
+  return `${converted} <span class="sarah-price-converted">(€${orig})</span>`;
+}
+
+// ── EXPENSE TRACKER ──────────────────────────────────────────
+const EXPENSE_CATEGORIES = [
+  { id:'food', label:'Food', emoji:'🍽️' },
+  { id:'transport', label:'Transport', emoji:'🚌' },
+  { id:'accommodation', label:'Accommodation', emoji:'🏨' },
+  { id:'activities', label:'Activities', emoji:'🎭' },
+  { id:'shopping', label:'Shopping', emoji:'🛍️' },
+  { id:'other', label:'Other', emoji:'📦' },
+];
+
+function _sarahLoadExpenses() { try { _s.expenses=JSON.parse(localStorage.getItem('sarah_expenses')||'[]'); } catch(e){_s.expenses=[];} }
+function _sarahSaveExpenses() { try { localStorage.setItem('sarah_expenses',JSON.stringify(_s.expenses)); } catch(e){} }
+function _sarahAddExpense(cat,amt,desc) {
+  _s.expenses.push({id:Date.now(),category:cat,amount:parseFloat(amt),description:desc,date:new Date().toISOString().split('T')[0]});
+  _sarahSaveExpenses(); _sarahRenderExpenses();
+}
+function _sarahDeleteExpense(id) {
+  _s.expenses=_s.expenses.filter(e=>e.id!==id); _sarahSaveExpenses(); _sarahRenderExpenses();
+}
+function _sarahRenderExpenses() {
+  const c=document.getElementById('sarah-expenses-list'); if(!c)return;
+  const totals={}; _s.expenses.forEach(e=>{totals[e.category]=(totals[e.category]||0)+e.amount;});
+  const gt=Object.values(totals).reduce((a,b)=>a+b,0);
+  let h='<div class="sarah-expenses-totals">';
+  EXPENSE_CATEGORIES.forEach(cat=>{
+    const a=totals[cat.id]||0;
+    h+=`<div class="sarah-expense-cat-total"><span>${cat.emoji} ${cat.label}</span><span>€${a.toFixed(0)}</span></div>`;
+  });
+  h+=`<div class="sarah-expense-grand-total">Total: €${gt.toFixed(0)}</div></div>`;
+  h+='<div class="sarah-expenses-items">';
+  [..._s.expenses].reverse().forEach(e=>{
+    const cat=EXPENSE_CATEGORIES.find(c=>c.id===e.category)||{emoji:'📦',label:'Other'};
+    h+=`<div class="sarah-expense-item"><div class="sarah-expense-info"><span class="sarah-expense-cat">${cat.emoji} ${cat.label}</span><span class="sarah-expense-desc">${e.description}</span><span class="sarah-expense-date">${e.date}</span></div><div class="sarah-expense-amount">€${e.amount.toFixed(0)}</div><button class="sarah-expense-delete" onclick="_sarahDeleteExpense(${e.id})">✕</button></div>`;
+  });
+  if(!_s.expenses.length)h+='<p class="sarah-expenses-empty">No expenses logged yet</p>';
+  h+='</div>'; c.innerHTML=h;
+}
+
 // ── INTERNAL STATE ──────────────────────────────────────────
 let _s = {
   group: null, vibe: null, budget: null, days: null,
@@ -39,6 +121,7 @@ let _s = {
   step: 0, currentDay: 1, checklistState: {},
   tripStartDate: null, tripEndDate: null, dynamicItinerary: null,
   cityPrefilled: false, hasRunOnce: false,
+  expenses: [],
 };
 
 // ── PUBLIC API ───────────────────────────────────────────────
@@ -164,7 +247,7 @@ function _buildOverlayHTML() {
         <div class="sarah-loading-avatar"><img src="/sarah/sarah-avatar.png" style="width:100%;height:100%;border-radius:50%;object-fit:cover;"></div>
         <div class="sarah-loading-bar"><div class="sarah-loading-fill" id="sarah-loading-fill"></div></div>
         <p class="sarah-loading-text" id="sarah-loading-text">Sarah is building your itinerary…</p>
-        <p class="sarah-loading-sub" id="sarah-loading-sub">Finding the best restaurants, activities and hidden gems for you</p>
+        <p class="sarah-loading-sub" id="sarah-loading-sub">Finding the best restaurants, activities and local favourites for you</p>
       </div>
     </div>
 
@@ -286,6 +369,16 @@ function _buildOverlayHTML() {
             <button class="sarah-nav-item" data-target="sarah-chat-input">💬 Chat</button>
           </div>
 
+          <!-- Currency toggle -->
+          <div class="sarah-currency-bar" id="sarah-currency-bar" style="display:none;">
+            <span class="sarah-currency-label">💰 Show prices in</span>
+            <div class="sarah-currency-options" id="sarah-currency-options">
+              <button class="sarah-currency-btn s-active" data-cur="EUR" onclick="_sarahPickCurrency('EUR')">€ EUR</button>
+              <button class="sarah-currency-btn" data-cur="GBP" onclick="_sarahPickCurrency('GBP')">£ GBP</button>
+              <button class="sarah-currency-btn" data-cur="USD" onclick="_sarahPickCurrency('USD')">$ USD</button>
+            </div>
+          </div>
+
           <!-- Trip summary card -->
           <div class="sarah-summary-card" id="sarah-summary-card" style="display:none;"></div>
 
@@ -377,6 +470,26 @@ function _buildOverlayHTML() {
             <div id="sarah-checklist-clothing" class="sarah-checklist-content"></div>
             <div id="sarah-checklist-documents" class="sarah-checklist-content"></div>
             <div id="sarah-checklist-tips" class="sarah-checklist-content"></div>
+
+            <div class="sarah-divider"></div>
+
+            <!-- Expense tracker -->
+            <div class="sarah-section-label">💰 Trip expenses</div>
+            <p class="sarah-expenses-sub">Track what you're spending — add items as you go</p>
+            <div class="sarah-expense-form">
+              <select class="sarah-expense-select" id="sarah-expense-cat">
+                <option value="food">🍽️ Food</option>
+                <option value="transport">🚌 Transport</option>
+                <option value="accommodation">🏨 Accommodation</option>
+                <option value="activities">🎭 Activities</option>
+                <option value="shopping">🛍️ Shopping</option>
+                <option value="other">📦 Other</option>
+              </select>
+              <input class="sarah-expense-input" id="sarah-expense-amount" type="number" placeholder="Amount €" min="0" step="1">
+              <input class="sarah-expense-input" id="sarah-expense-desc" type="text" placeholder="What for?" maxlength="60">
+              <button class="sarah-expense-add" onclick="_sarahAddExpense(document.getElementById('sarah-expense-cat').value,document.getElementById('sarah-expense-amount').value,document.getElementById('sarah-expense-desc').value)">+ Add</button>
+            </div>
+            <div id="sarah-expenses-list"></div>
           </div>
 
           <!-- Chat with Sarah -->
@@ -736,6 +849,32 @@ function _sarahShowResults() {
       }, 300);
     }, 1100);
   }, 1800);
+
+  // Fetch exchange rates in background
+  _sarahEnsureRates().then(rates => {
+    const bar = document.getElementById('sarah-currency-bar');
+    if (bar && rates) { bar.style.display = 'flex'; _sarahUpdateCurrencyUI(); }
+  });
+}
+
+function _sarahInitCurrencyBar() {
+  const rates = _sarahGetRates();
+  const bar = document.getElementById('sarah-currency-bar');
+  if (bar && rates) { bar.style.display = 'flex'; _sarahUpdateCurrencyUI(); }
+}
+
+function _sarahUpdateCurrencyUI() {
+  const pref = _sarahPrefCurrency();
+  document.querySelectorAll('#sarah-currency-bar .sarah-currency-btn').forEach(b => {
+    b.classList.toggle('s-active', b.dataset.cur === pref);
+  });
+  // Re-render timeline to show converted prices
+  _renderTimeline();
+}
+
+function _sarahPickCurrency(cur) {
+  _sarahSetCurrency(cur);
+  _sarahUpdateCurrencyUI();
 }
 
 function _buildGreeting() {
@@ -908,6 +1047,9 @@ function _buildResults() {
   // Chat
   _buildChat();
 
+  // Currency bar
+  _sarahInitCurrencyBar();
+
   // Sticky results nav
   _sSetupResultsNav();
 
@@ -1011,7 +1153,7 @@ function _buildStopEl(stop) {
         ${badgeHtml}
       </div>
       <p class="sarah-stop-story">${stop.story}</p>
-      ${stop.price ? `<span class="sarah-stop-price">${stop.price}</span>` : ''}
+      ${stop.price ? `<span class="sarah-stop-price">${_sarahDisplayPrice(stop.price)}</span>` : ''}
       ${stop.bookLink ? `<a href="${stop.bookLink}" target="_blank" rel="noopener" class="sarah-stop-book" onclick="event.stopPropagation()">📍 Find on Maps</a>` : ''}
     </div>`;
   return el;
@@ -1179,12 +1321,12 @@ function _sarahFillStory(ctx) {
   // The actual stop
   if (stopTitle) {
     parts.push(_sarahPick([
-      `${stopTitle} — honestly, it's a gem.`,
-      `${stopTitle}. Bit of a hidden spot — locals rate it.`,
       `${stopTitle}. Tourist-friendly but the real deal.`,
       `${stopTitle} — this is the kind of place that makes ${city} special.`,
       `Right, ${stopTitle}. Not many people know about this one.`,
       `${stopTitle} — trust me on this one.`,
+      `${stopTitle} — worth every minute.`,
+      `${stopTitle}. Almost kept this one to myself.`,
     ], dayNum * 7 + 3));
   }
 
@@ -1506,6 +1648,15 @@ function _buildUnlockedContent() {
   document.getElementById('sarah-unlocked-content').style.display = 'block';
   const cd = _s.cityData;
 
+  // Expenses
+  _sarahLoadExpenses();
+  _sarahRenderExpenses();
+  // Clear form fields
+  const amtInp = document.getElementById('sarah-expense-amount');
+  const descInp = document.getElementById('sarah-expense-desc');
+  if (amtInp) amtInp.value = '';
+  if (descInp) descInp.value = '';
+
   // Restaurants
   document.getElementById('sarah-restaurants-grid').innerHTML =
     (cd.restaurants || []).map(r => `
@@ -1668,11 +1819,15 @@ async function _sarahSendChat() {
   const prem = cd ? cd.premium : null;
 
   const budgetStr = prem && prem.budget && prem.budget[_s.budget] ? `Daily budget for ${_s.budget} tier: ${prem.budget[_s.budget]}` : '';
-  const secretSpotsStr = prem && prem.secretSpots ? `Secret spots (recommend these for hidden gems): ${prem.secretSpots.map(s=>s.name+' - '+s.desc).join(' | ')}` : '';
+  const secretSpotsStr = prem && prem.secretSpots ? `Local gems (under-the-radar finds worth recommending): ${prem.secretSpots.map(s=>s.name+' - '+s.desc).join(' | ')}` : '';
   const rainyStr = prem && prem.rainyPlan ? `Rainy day plan: ${prem.rainyPlan}` : '';
   const restaurantStr = cd && cd.restaurants ? `Restaurants with booking links: ${cd.restaurants.map(r=>r.bookLink ? r.name+' (book via Google Maps)' : r.name).join(', ')}` : '';
 
   const premiumBlock = [budgetStr, secretSpotsStr, rainyStr, restaurantStr].filter(Boolean).join('\n\n');
+
+  // Exchange rate info for system
+  const xrRates = _sarahGetRates();
+  const xrStr = xrRates ? `Exchange rates (for reference): €1 = £${xrRates.GBP} = $${xrRates.USD}. When mentioning prices, give the EUR amount and optionally the GBP/USD equivalent.` : '';
 
   const systemPrompt = `You are Sarah, a warm, direct, slightly funny British blonde woman who is a genuine expert on Italian cities. Honest advice — not tourist board fluff.
 
@@ -1683,7 +1838,12 @@ Key activities: ${cd ? (cd.activities||[]).map(a=>a.name).join(', ') : ''}
 
 ${premiumBlock ? `PREMIUM DATA (use this in your answers):\n${premiumBlock}` : ''}
 
-You can offer to book restaurant tables via Google Maps. When someone asks about hidden gems, share the secret spots. When asked about budget, give the daily estimate. For bad weather, suggest the rainy plan.
+${xrStr}
+
+You can offer to book restaurant tables via Google Maps.
+When someone asks for local favourites, quieter alternatives, or things off the beaten path — suggest the local gems above. Vary your language: call them hidden corners, local secrets, lesser-known spots, quiet finds, under-the-radar places, or tucked-away treasures. Never use the same phrase twice in a conversation.
+When asked about budget, give the daily estimate. For bad weather, suggest the rainy plan.
+Vary your vocabulary generally — avoid repeating the same words for recommendations, prices, or descriptions across different exchanges.
 
 Keep answers short (3-5 sentences). Warm, knowledgeable, a little cheeky, never corporate. End naturally. Never say you're an AI.`;
 
@@ -1878,7 +2038,7 @@ function _sarahLoadTrip(cityName) {
 
 // ── LOADING SCREEN ───────────────────────────────────────────
 const SARAH_LOADING_STATES = [
-  { text: "Sarah is building your itinerary…", sub: "Finding the best restaurants, activities and hidden gems for you" },
+  { text: "Sarah is building your itinerary…", sub: "Finding the best restaurants, activities and local favourites for you" },
   { text: "Checking availability and dates…", sub: "Making sure everything lines up for your trip" },
   { text: "Adding Sarah's personal recommendations…", sub: "The spots only locals know about" },
   { text: "Polishing your personalised plan…", sub: "Almost there, just making it beautiful" },

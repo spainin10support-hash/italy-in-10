@@ -164,7 +164,7 @@ function _buildOverlayHTML() {
         <div class="sarah-loading-avatar"><img src="/sarah/sarah-avatar.png" style="width:100%;height:100%;border-radius:50%;object-fit:cover;"></div>
         <div class="sarah-loading-bar"><div class="sarah-loading-fill" id="sarah-loading-fill"></div></div>
         <p class="sarah-loading-text" id="sarah-loading-text">Sarah is building your itinerary…</p>
-        <p class="sarah-loading-sub" id="sarah-loading-sub">Finding the best restaurants, activities and hidden gems for you</p>
+        <p class="sarah-loading-sub" id="sarah-loading-sub">Finding the best restaurants, activities and local favourites for you</p>
       </div>
     </div>
 
@@ -1179,8 +1179,8 @@ function _sarahFillStory(ctx) {
   // The actual stop
   if (stopTitle) {
     parts.push(_sarahPick([
-      `${stopTitle} — honestly, it's a gem.`,
-      `${stopTitle}. Bit of a hidden spot — locals rate it.`,
+      `${stopTitle} — this is the kind of place that makes ${city} special.`,
+      `Right, ${stopTitle}. Not many people know about this one.`,
       `${stopTitle}. Tourist-friendly but the real deal.`,
       `${stopTitle} — this is the kind of place that makes ${city} special.`,
       `Right, ${stopTitle}. Not many people know about this one.`,
@@ -1668,7 +1668,7 @@ async function _sarahSendChat() {
   const prem = cd ? cd.premium : null;
 
   const budgetStr = prem && prem.budget && prem.budget[_s.budget] ? `Daily budget for ${_s.budget} tier: ${prem.budget[_s.budget]}` : '';
-  const secretSpotsStr = prem && prem.secretSpots ? `Secret spots (recommend these for hidden gems): ${prem.secretSpots.map(s=>s.name+' - '+s.desc).join(' | ')}` : '';
+  const secretSpotsStr = prem && prem.secretSpots ? `Local gems (under-the-radar finds worth recommending): ${prem.secretSpots.map(s=>s.name+' - '+s.desc).join(' | ')}` : '';
   const rainyStr = prem && prem.rainyPlan ? `Rainy day plan: ${prem.rainyPlan}` : '';
   const restaurantStr = cd && cd.restaurants ? `Restaurants with booking links: ${cd.restaurants.map(r=>r.bookLink ? r.name+' (book via Google Maps)' : r.name).join(', ')}` : '';
 
@@ -1683,7 +1683,10 @@ Key activities: ${cd ? (cd.activities||[]).map(a=>a.name).join(', ') : ''}
 
 ${premiumBlock ? `PREMIUM DATA (use this in your answers):\n${premiumBlock}` : ''}
 
-You can offer to book restaurant tables via Google Maps. When someone asks about hidden gems, share the secret spots. When asked about budget, give the daily estimate. For bad weather, suggest the rainy plan.
+You can offer to book restaurant tables via Google Maps.
+When someone asks for local favourites, quieter alternatives, or things off the beaten path — suggest the local gems above. Vary your language: call them hidden corners, local secrets, lesser-known spots, quiet finds, under-the-radar places, or tucked-away treasures. Never use the same phrase twice in a conversation.
+When asked about budget, give the daily estimate. For bad weather, suggest the rainy plan.
+Vary your vocabulary generally — avoid repeating the same words for recommendations, prices, or descriptions across different exchanges.
 
 Keep answers short (3-5 sentences). Warm, knowledgeable, a little cheeky, never corporate. End naturally. Never say you're an AI.`;
 
@@ -1878,7 +1881,7 @@ function _sarahLoadTrip(cityName) {
 
 // ── LOADING SCREEN ───────────────────────────────────────────
 const SARAH_LOADING_STATES = [
-  { text: "Sarah is building your itinerary…", sub: "Finding the best restaurants, activities and hidden gems for you" },
+  { text: "Sarah is building your itinerary…", sub: "Finding the best restaurants, activities and local favourites for you" },
   { text: "Checking availability and dates…", sub: "Making sure everything lines up for your trip" },
   { text: "Adding Sarah's personal recommendations…", sub: "The spots only locals know about" },
   { text: "Polishing your personalised plan…", sub: "Almost there, just making it beautiful" },

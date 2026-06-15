@@ -71,11 +71,12 @@ Build Italy in 10 as a clean, extensible template app that can be copied for Por
 - `jimp` is a build-time tool only (NOT in runtime deps) — use `npm run icons` to regenerate
 
 ## Next Steps
-1. Submit Play Store listing (description, screenshots, content questionnaire, select countries)
-2. Test PWA install prompt on phone at `italy.roamin10.com`
-3. Test Android app via installed AAB (verify full-screen TWA with new icons)
-4. Delete old `10MinuteITALY` folder (Spain backup)
-5. Populate France: `france.json`, `generate-france-data.js`, copy Sarah core files
+1. Bump `versionCode` + `versionName` in `app/build.gradle` before next AAB build
+2. Create unified email/account for the entire app collection (not per-country)
+3. Update `roamin10.com/privacy` — remove Spain refs, make generic for "Brand in 10"
+4. Test Android app via Play Store download (verify new icons + full-screen)
+5. Delete old `10MinuteITALY` folder (Spain backup)
+6. Populate France: `france.json`, `generate-france-data.js`, copy Sarah core files
 
 ## Critical Context
 - Server runs on `http://localhost:3000`, city pages at `?city=florence` etc.
